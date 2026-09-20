@@ -3,6 +3,7 @@
   "decisions": [
     "Use Manrope for navigation and controls and Source Serif 4 for case titles and judicial text.",
     "Support light and dark themes with a deep navy dark palette derived from the KLH royal blue.",
-    "Use a short sliding transition for the mobile cases menu and respect reduced-motion preferences."
+    "Use a short sliding transition for the mobile cases menu and respect reduced-motion preferences.",
+    "Animate theme changes from the toggle origin and morph the control between moon and sun states."
   ]
 }

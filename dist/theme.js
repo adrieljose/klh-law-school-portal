@@ -35,7 +35,23 @@
     apply(root.dataset.theme || 'light');
     document.querySelectorAll('[data-theme-toggle]').forEach(button => {
       button.addEventListener('click', () => {
-        apply(root.dataset.theme === 'dark' ? 'light' : 'dark', true);
+        const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const rect = button.getBoundingClientRect();
+        const x = rect.left + rect.width / 2;
+        const y = rect.top + rect.height / 2;
+        const radius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+        root.style.setProperty('--theme-x', `${x}px`);
+        root.style.setProperty('--theme-y', `${y}px`);
+        root.style.setProperty('--theme-radius', `${radius}px`);
+
+        if (!reducedMotion && document.startViewTransition) {
+          document.startViewTransition(() => apply(next, true));
+        } else {
+          root.classList.add('theme-changing');
+          apply(next, true);
+          window.setTimeout(() => root.classList.remove('theme-changing'), 360);
+        }
       });
     });
   });

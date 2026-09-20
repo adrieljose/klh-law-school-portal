@@ -231,7 +231,7 @@ def source_name(url: str) -> str:
 
 
 def page_shell(title: str, body: str, description: str = "KLH Law School Portal") -> str:
-    return f"""<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"description\" content=\"{html_lib.escape(description, quote=True)}\"><title>{html_lib.escape(title)} · KLH Law School Portal</title><link rel=\"icon\" href=\"/favicon.svg\"><script src=\"/theme.js\"></script><link rel=\"stylesheet\" href=\"/styles.css\"></head><body><a class=\"skip\" href=\"#main\">Skip to content</a>{body}<script src=\"/case.js\"></script></body></html>"""
+    return f"""<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"description\" content=\"{html_lib.escape(description, quote=True)}\"><title>{html_lib.escape(title)} · KLH Law School Portal</title><link rel=\"icon\" href=\"/favicon.ico?v=2\" sizes=\"any\"><link rel=\"icon\" type=\"image/png\" href=\"/assets/klh-favicon.png?v=2\"><link rel=\"apple-touch-icon\" href=\"/assets/apple-touch-icon.png?v=2\"><script src=\"/theme.js\"></script><link rel=\"stylesheet\" href=\"/styles.css\"></head><body><a class=\"skip\" href=\"#main\">Skip to content</a>{body}<script src=\"/case.js\"></script></body></html>"""
 
 
 def case_page(case: dict, decision_html: str) -> str:
