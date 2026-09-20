@@ -1,0 +1,10 @@
+.git
+.openai
+.research
+.sites-runtime
+.env.local
+content
+scripts
+*.tar.gz
+__pycache__
+node_modules
