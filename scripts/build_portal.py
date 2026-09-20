@@ -69,6 +69,21 @@ PDF_CASES = {"tayko-v-capistrano", "poindexter-v-greenhow"}
 ALLOWED = {"a", "abbr", "b", "blockquote", "br", "center", "cite", "div", "em", "h2", "h3", "h4", "h5", "hr", "i", "li", "ol", "p", "pre", "small", "span", "strong", "sub", "sup", "table", "tbody", "td", "tfoot", "th", "thead", "tr", "u", "ul"}
 
 
+def write_text_retry(path: Path, value: str) -> None:
+    """Retry transient Windows file-lock errors while regenerating many pages."""
+    value = value.replace("\r\n", "\n").replace("\r", "\n")
+    value = "\n".join(line.rstrip() for line in value.split("\n"))
+    last = None
+    for attempt in range(5):
+        try:
+            path.write_text(value, encoding="utf-8")
+            return
+        except OSError as exc:
+            last = exc
+            time.sleep(0.15 * (attempt + 1))
+    raise last  # type: ignore[misc]
+
+
 def fetch(url: str) -> bytes:
     CACHE.mkdir(parents=True, exist_ok=True)
     suffix = Path(urllib.parse.urlsplit(url).path).suffix or ".html"
@@ -121,6 +136,19 @@ def sanitize(node, base_url: str, prefix: str = "") -> str:
                 if element.get("href", "").startswith("http"):
                     element.set("rel", "noopener")
                     element.set("target", "_blank")
+    # Image-only source links become empty when source images are removed.
+    # Keep named destinations for footnotes, but remove action links with no name.
+    for link in list(node.xpath(".//a[@href]")):
+        if not " ".join(link.text_content().split()):
+            link.drop_tree()
+    for attribute in ("id", "name"):
+        seen = set()
+        for element in node.xpath(f".//*[@{attribute}]"):
+            value = element.get(attribute)
+            if value in seen:
+                del element.attrib[attribute]
+            else:
+                seen.add(value)
     return html.tostring(node, encoding="unicode", method="html")
 
 
@@ -148,6 +176,12 @@ def elibrary_content(raw: bytes, url: str) -> str:
 
 def legaldex_content(raw: bytes, url: str) -> str:
     doc = html.fromstring(raw)
+    decision_heading = doc.xpath('//*[@id="decision-text-heading"]')
+    if decision_heading:
+        decision_nodes = decision_heading[0].xpath("following-sibling::*")
+        decision_nodes = [n for n in decision_nodes if len(" ".join(n.text_content().split())) > 2000]
+        if decision_nodes:
+            return sanitize(decision_nodes[0], url)
     nodes = doc.xpath("//article|//main|//*[contains(@class,'jurisprudence') or contains(@class,'content')]")
     nodes = [n for n in nodes if len(" ".join(n.text_content().split())) > 2000]
     if not nodes:
@@ -230,20 +264,42 @@ def source_name(url: str) -> str:
     return urllib.parse.urlsplit(url).netloc
 
 
+def source_label(case: dict) -> str:
+    """Describe the linked source without implying that independent archives are official."""
+    url = case.get("sourceUrl") or ""
+    if "elibrary.judiciary.gov.ph" in url or "govinfo.gov" in url:
+        return "Official government source"
+    if "lawphil.net" in url:
+        return "Independent legal archive"
+    if "legaldex.com" in url:
+        return "Secondary full-text source; official page was not located"
+    return "Linked full-text source"
+
+
+def legal_footer(tagline: str) -> str:
+    return f'''<footer class="reader-footer"><span>KLH LAW SCHOOL PORTAL · {html_lib.escape(tagline)}</span><nav class="legal-links" aria-label="Legal and privacy"><a href="/privacy/">Privacy &amp; storage</a><a href="/terms/">Terms &amp; disclaimer</a></nav></footer>'''
+
+
+def reader_header(current: str = "") -> str:
+    case_current = ' aria-current="page"' if current == "cases" else ""
+    syllabus_current = ' aria-current="page"' if current == "syllabus" else ""
+    return f'''<header class="reader-topbar"><a class="brand" href="/"><img src="/assets/klh-logo.png" alt="KLH Law Firm logo" width="48" height="48"><span>KLH <b>Law School Portal</b></span></a><nav><a{case_current} href="/">Case library</a><a{syllabus_current} href="/syllabus/">Syllabus</a><button class="theme-button" type="button" data-theme-toggle aria-pressed="false"><span class="theme-symbol" aria-hidden="true"></span><span class="theme-label">Dark</span></button></nav></header>'''
+
+
 def page_shell(title: str, body: str, description: str = "KLH Law School Portal") -> str:
     return f"""<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"description\" content=\"{html_lib.escape(description, quote=True)}\"><title>{html_lib.escape(title)} · KLH Law School Portal</title><link rel=\"icon\" href=\"/favicon.ico?v=2\" sizes=\"any\"><link rel=\"icon\" type=\"image/png\" href=\"/assets/klh-favicon.png?v=2\"><link rel=\"apple-touch-icon\" href=\"/assets/apple-touch-icon.png?v=2\"><script src=\"/theme.js\"></script><link rel=\"stylesheet\" href=\"/styles.css\"></head><body><a class=\"skip\" href=\"#main\">Skip to content</a>{body}<script src=\"/case.js\"></script></body></html>"""
 
 
 def case_page(case: dict, decision_html: str) -> str:
     syllabus = " · ".join(case["syllabusCitations"])
-    status = case["status"]
-    label = "Official or court-published source" if status == "verified" else "Secondary full-text source; official page was not located"
+    label = source_label(case)
+    source_button = "View official source ↗" if label == "Official government source" else "View linked full text ↗"
     note = f'<aside class="citation-alert"><strong>Citation check</strong><p>{html_lib.escape(case["citationNote"])}</p></aside>' if case.get("citationNote") else ""
     transcription = f'<span>Reading text: <a href="{html_lib.escape(case["textSourceUrl"], quote=True)}" target="_blank" rel="noopener">{html_lib.escape(case["textSourceName"])}</a></span>' if case.get("textSourceUrl") else ""
     topics = " · ".join(case.get("topicTitles", []))
-    body = f"""<header class=\"reader-topbar\"><a class=\"brand\" href=\"/\"><img src=\"/assets/klh-logo.png\" alt=\"KLH Law Firm\" width=\"48\" height=\"48\"><span>KLH <b>Law School Portal</b></span></a><nav><a href=\"/\">Case library</a><a href=\"/syllabus/\">Syllabus</a><button class=\"theme-button\" type=\"button\" data-theme-toggle aria-pressed=\"false\"><span class=\"theme-symbol\" aria-hidden=\"true\"></span><span class=\"theme-label\">Dark</span></button></nav></header>
-<main id=\"main\" class=\"reader-shell\"><article class=\"decision-card\"><a class=\"back-link\" href=\"/\">← Back to case library</a><div class=\"case-kicker\">{html_lib.escape(topics)}</div><h1>{html_lib.escape(case['title'])}</h1><p class=\"verified-citation\">{html_lib.escape(case['citation'])}</p><p class=\"syllabus-citation\"><strong>Syllabus citation:</strong> {html_lib.escape(syllabus)}</p>{note}<div class=\"reader-actions\"><button class=\"study-button\" data-action=\"bookmarks\" data-id=\"{case['id']}\">Bookmark</button><button class=\"study-button\" data-action=\"read\" data-id=\"{case['id']}\">Mark as read</button><a class=\"source-button\" href=\"{html_lib.escape(case['sourceUrl'], quote=True)}\" target=\"_blank\" rel=\"noopener\">View original source ↗</a></div><div class=\"source-meta\"><span>{html_lib.escape(case['sourceName'])}</span><span>{label}</span>{transcription}<span>Retrieved {RETRIEVED}</span></div><section class=\"decision-text\" aria-label=\"Full decision\">{decision_html}</section></article><aside class=\"reader-note\"><strong>Study progress</strong><p>Bookmarks and reading status are saved in this browser. Reading remains available if storage is unavailable.</p><a href=\"/?view=bookmarks\">View bookmarked cases</a></aside></main>
-<footer class=\"reader-footer\">KLH LAW SCHOOL PORTAL <span>For academic use · Source linked above</span></footer>"""
+    body = f"""{reader_header("cases")}
+<main id=\"main\" class=\"reader-shell\"><article class=\"decision-card\"><a class=\"back-link\" href=\"/\">← Back to case library</a><div class=\"case-kicker\">{html_lib.escape(topics)}</div><h1>{html_lib.escape(case['title'])}</h1><p class=\"verified-citation\">{html_lib.escape(case['citation'])}</p><p class=\"syllabus-citation\"><strong>Syllabus citation:</strong> {html_lib.escape(syllabus)}</p>{note}<div class=\"reader-actions\"><button class=\"study-button\" data-action=\"bookmarks\" data-id=\"{case['id']}\">Bookmark</button><button class=\"study-button\" data-action=\"read\" data-id=\"{case['id']}\">Mark as read</button><a class=\"source-button\" href=\"{html_lib.escape(case['sourceUrl'], quote=True)}\" target=\"_blank\" rel=\"noopener\">{source_button}</a></div><div class=\"source-meta\"><span>{html_lib.escape(case['sourceName'])}</span><span>{label}</span>{transcription}<span>Retrieved {RETRIEVED}</span></div><section class=\"decision-text\" aria-label=\"Full decision\">{decision_html}</section></article><aside class=\"reader-note\"><strong>Study progress</strong><p>Bookmarks and reading status are saved in this browser. Reading remains available if storage is unavailable.</p><a href=\"/?view=bookmarks\">View bookmarked cases</a></aside></main>
+{legal_footer("For academic use · Source linked above")}"""
     return page_shell(case["title"], body, f"Full text and source for {case['title']}")
 
 
@@ -273,8 +329,32 @@ def syllabus_page(data: dict) -> str:
                 cases.append(f'<li><a href="/cases/{c["id"]}/">{esc(r["citation"])}</a></li>')
             topics.append(f'<section id="{tid}"><h3>{esc(t["title"])}</h3><ul>{descriptions}</ul><ol class="syllabus-cases">{"".join(cases)}</ol></section>')
         parts.append(f'<div class="syllabus-part"><h2>{esc(part["title"])}</h2>{"".join(topics)}</div>')
-    body = f"""<header class=\"reader-topbar\"><a class=\"brand\" href=\"/\"><img src=\"/assets/klh-logo.png\" alt=\"KLH Law Firm\" width=\"48\" height=\"48\"><span>KLH <b>Law School Portal</b></span></a><nav><a href=\"/\">Case library</a><a aria-current=\"page\" href=\"/syllabus/\">Syllabus</a><button class=\"theme-button\" type=\"button\" data-theme-toggle aria-pressed=\"false\"><span class=\"theme-symbol\" aria-hidden=\"true\"></span><span class=\"theme-label\">Dark</span></button></nav></header><main id=\"main\" class=\"syllabus-page\"><p class=\"eyebrow\">COMPLETE COURSE SYLLABUS</p><h1>{esc(data['course'])}</h1><p class=\"syllabus-lead\">{esc(data['school'])}<br>{esc(data['professor'])} · {esc(data['academicYear'])}</p><section><h2>Class policies</h2><ol>{policies}</ol></section><section><h2>Grading system</h2><div class=\"grading-grid\">{"".join(grades)}</div><p>{esc(data['recitationNote'])}</p></section><section><h2>Consultation</h2><p>{esc(data['consultation'])}</p></section>{"".join(parts)}</main><footer class=\"reader-footer\">KLH LAW SCHOOL PORTAL <span>Administrative Law and Law on Public Officers</span></footer>"""
+    body = f"""{reader_header("syllabus")}<main id=\"main\" class=\"syllabus-page\"><p class=\"eyebrow\">COMPLETE COURSE SYLLABUS</p><h1>{esc(data['course'])}</h1><p class=\"syllabus-lead\">{esc(data['school'])}<br>{esc(data['professor'])} · {esc(data['academicYear'])}</p><section><h2>Class policies</h2><ol>{policies}</ol></section><section><h2>Grading system</h2><div class=\"grading-grid\">{"".join(grades)}</div><p>{esc(data['recitationNote'])}</p></section><section><h2>Consultation</h2><p>{esc(data['consultation'])}</p></section>{"".join(parts)}</main>{legal_footer("Administrative Law and Law on Public Officers")}"""
     return page_shell("Syllabus", body, data["course"])
+
+
+def legal_page(kind: str) -> str:
+    if kind == "privacy":
+        title = "Privacy & storage"
+        intro = "How this portal handles browser storage, hosting data, and external links."
+        content = '''
+<section><h2>What the portal stores</h2><p>The portal has no accounts and does not ask you to submit personal information. It stores two preferences only in your current browser:</p><ul><li><strong>Study status</strong> (<code>klh-study-v1</code>): the stable case identifiers you bookmark or mark as read.</li><li><strong>Theme preference</strong> (<code>klh-theme-v1</code>): whether you selected light or dark mode.</li></ul><p>Portal code does not send these preferences to KLH, the professor, or the school. They remain on this browser and device until you clear them.</p><button class="study-button clear-storage" type="button" data-clear-storage>Clear bookmarks, reading progress, and theme preference</button><p class="clear-status" data-clear-status role="status" aria-live="polite"></p></section>
+<section><h2>Cookies, tracking, and forms</h2><p>The portal does not set cookies and does not use analytics, advertising pixels, behavioral profiling, third-party embeds, or session replay. It has no registration, contact, payment, or submission forms. Because there are no optional tracking cookies or similar technologies to accept, the portal does not show a cookie-consent banner.</p></section>
+<section><h2>Hosting information</h2><p>The public site is hosted by Vercel. Like other web hosts, Vercel may process technical request information such as an IP address, approximate location derived from it, browser or device information, timestamps, and system logs to deliver and secure the site. That processing is described in <a href="https://vercel.com/legal/privacy-notice" target="_blank" rel="noopener">Vercel’s Privacy Notice</a>. The portal owner has not added Vercel Web Analytics.</p></section>
+<section><h2>External case links</h2><p>Case pages link to court, government, and legal-archive websites. They open as separate sites and are not embedded here. Those sites may have their own privacy practices.</p></section>
+<section><h2>Your choices and questions</h2><p>You may use the portal without bookmarks or reading progress. You can remove browser-only data with the button above or by clearing this site’s storage in your browser. For a privacy question about this portal, contact Atty. Keinth Laña Horario, CPA through the official School of Law consultation channel described in the syllabus. You may also learn about data-subject rights from the <a href="https://privacy.gov.ph/the-right-to-be-informed/" target="_blank" rel="noopener">National Privacy Commission</a>.</p></section>'''
+    else:
+        title = "Terms & disclaimer"
+        intro = "Rules and limits for using this academic case portal."
+        content = '''
+<section><h2>Academic use</h2><p>This portal is a study aid for the Administrative Law and Law on Public Officers course. Its content is general academic information. It is not legal advice, does not create an attorney-client relationship, and should not be relied on for a client matter or filing.</p></section>
+<section><h2>Accuracy and legal currency</h2><p>Each case page shows its citation, linked source, and retrieval date. Decisions, laws, citations, and source availability can later change. Use the prominent linked-source button and check current official materials before relying on any text. Citation corrections are identified separately from the syllabus wording where applicable.</p></section>
+<section><h2>Case texts, links, and logo</h2><p>The <a href="https://lawphil.net/statutes/repacts/ra1997/ra_8293_1997.html" target="_blank" rel="noopener">Intellectual Property Code of the Philippines</a> addresses official legal texts and government works. The portal does not claim ownership of judicial decisions or other official legal texts. Sources are identified and linked on each case page. Independent archives may hold rights in their own formatting, annotations, or other added material. External sites remain under their respective owners’ terms.</p><p>The KLH logo was supplied for and authorized for use on this portal. It may not be copied or reused without the rights holder’s permission. The portal’s original layout, styling, and code remain protected to the extent allowed by law.</p></section>
+<section><h2>Bookmarks and availability</h2><p>Bookmarks, reading status, and theme choice are browser-only conveniences. They may be lost when browser data is cleared, private browsing ends, or storage is unavailable. The portal and external sources may sometimes be unavailable or contain transcription errors.</p></section>
+<section><h2>No sales, refunds, or testimonials</h2><p>The portal does not sell a product or service, process payments, offer subscriptions, or publish student reviews or testimonials. A refund policy does not apply.</p></section>
+<section><h2>Law and changes</h2><p>These terms are governed by the laws of the Republic of the Philippines. The terms and portal content may be updated when the syllabus, sources, or site features change.</p></section>'''
+    body = f'''{reader_header()}<main id="main" class="legal-page"><p class="eyebrow">KLH LAW SCHOOL PORTAL</p><h1>{html_lib.escape(title)}</h1><p class="legal-lead">{html_lib.escape(intro)}</p><p class="legal-date">Effective and last updated: September 20, 2026</p>{content}</main>{legal_footer("Academic case library")}'''
+    return page_shell(title, body, intro)
 
 
 def build() -> None:
@@ -332,15 +412,19 @@ def build() -> None:
         status_counts[case["status"]] += 1
         folder = DIST / "cases" / slug
         folder.mkdir(parents=True, exist_ok=True)
-        (folder / "index.html").write_text(case_page(case, decision), encoding="utf-8")
+        write_text_retry(folder / "index.html", case_page(case, decision))
         print(f"[{number:03}/{len(data['cases'])}] {case['status']:10} {case['title']}")
 
     DIST.joinpath("data").mkdir(parents=True, exist_ok=True)
-    (DIST / "data" / "index.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    write_text_retry(DIST / "data" / "index.json", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     (DIST / "syllabus").mkdir(parents=True, exist_ok=True)
-    (DIST / "syllabus" / "index.html").write_text(syllabus_page(data), encoding="utf-8")
+    write_text_retry(DIST / "syllabus" / "index.html", syllabus_page(data))
+    for legal_kind in ("privacy", "terms"):
+        legal_dir = DIST / legal_kind
+        legal_dir.mkdir(parents=True, exist_ok=True)
+        write_text_retry(legal_dir / "index.html", legal_page(legal_kind))
     report = {"generatedAt": RETRIEVED, "referenceCount": len(data["references"]), "uniqueCaseCount": len(data["cases"]), "statusCounts": status_counts, "unresolved": unresolved}
-    (ROOT / "content" / "verification-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_text_retry(ROOT / "content" / "verification-report.json", json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 

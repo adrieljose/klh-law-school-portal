@@ -54,6 +54,18 @@
         }
       });
     });
+
+    document.querySelector('[data-clear-storage]')?.addEventListener('click', () => {
+      const status = document.querySelector('[data-clear-status]');
+      try {
+        localStorage.removeItem('klh-study-v1');
+        localStorage.removeItem(key);
+        apply(media.matches ? 'dark' : 'light');
+        if (status) status.textContent = 'Saved study data and theme preference were cleared from this browser.';
+      } catch {
+        if (status) status.textContent = 'Browser storage is unavailable, so there is no saved study data to clear.';
+      }
+    });
   });
 
   media.addEventListener?.('change', event => {
