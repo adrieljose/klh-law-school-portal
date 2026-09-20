@@ -1,0 +1,5 @@
+.sites-runtime/
+.research/
+__pycache__/
+*.tar.gz
+node_modules/

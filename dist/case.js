@@ -1,0 +1,10 @@
+'use strict';
+const key='klh-study-v1';
+let state={bookmarks:[],read:[]},storageAvailable=true;
+try{const saved=JSON.parse(localStorage.getItem(key)||'{}');for(const field of ['bookmarks','read'])state[field]=Array.isArray(saved[field])?saved[field]:[];}catch{storageAvailable=false;}
+function persist(){try{localStorage.setItem(key,JSON.stringify(state));}catch{storageAvailable=false;}if(!storageAvailable&&!document.querySelector('.storage-notice')){const notice=document.createElement('div');notice.className='storage-notice';notice.setAttribute('role','status');notice.textContent='Browser storage is unavailable. Your changes will last for this visit only.';document.body.append(notice);}}
+function updateButtons(){document.querySelectorAll('[data-action]').forEach(button=>{const field=button.dataset.action,id=button.dataset.id,on=state[field].includes(id);button.classList.toggle('is-on',on);button.setAttribute('aria-pressed',String(on));button.textContent=field==='read'?(on?'Marked as read':'Mark as read'):(on?'Bookmarked':'Bookmark');});}
+function setValue(field,id,value){const on=value??!state[field].includes(id);state[field]=state[field].filter(x=>x!==id);if(on)state[field].push(id);persist();updateButtons();return {id,[field==='read'?'read':'bookmarked']:on};}
+document.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(button)setValue(button.dataset.action,button.dataset.id);});
+updateButtons();
+if(document.modelContext?.registerTool){for(const [name,description,field] of [['set_case_bookmark','Bookmark or unbookmark the case open on this page.','bookmarks'],['set_case_read','Mark the case open on this page as read or unread.','read']]){document.modelContext.registerTool({name,description,inputSchema:{type:'object',properties:{value:{type:'boolean'}},required:['value']},execute:({value})=>{const button=document.querySelector(`[data-action="${field}"]`);return {content:[{type:'text',text:JSON.stringify(setValue(field,button.dataset.id,value))}]};}});}}

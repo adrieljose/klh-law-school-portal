@@ -1,0 +1,4447 @@
+{
+  "title": "KLH Law School Portal",
+  "course": "ADMINISTRATIVE LAW AND LAW ON PUBLIC OFFICERS",
+  "professor": "Atty. Keinth Laña Horario, CPA",
+  "school": "University Of Negros Occidental-Recoletos",
+  "academicYear": "1st Semester, A.Y. 2026-2027",
+  "policies": [
+    "Attendance shall be checked at the start of every session; students are expected to be punctual and prepared to recite on the assigned cases and topics.",
+    "Only the latest editions of the Constitution, the Administrative Code, and the assigned casebooks/reviewers may be used during recitation and examinations.",
+    "Cross-recitation and the Socratic method shall be used; students must be ready to answer questions on any case in the syllabus for the week.",
+    "No special examinations shall be given except for the most meritorious reasons, subject to the approval of the professor and the School of Law.",
+    "Use of Cellphone is STRICTLY PROHIBITED."
+  ],
+  "gradingTables": [
+    [
+      [
+        "Midterm Exam",
+        "40%"
+      ],
+      [
+        "Final Exam",
+        "6 0%"
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "Final Grade",
+        "100%"
+      ]
+    ],
+    [
+      [
+        "Major Exam",
+        "60%"
+      ],
+      [
+        "Recitation",
+        "30%"
+      ],
+      [
+        "Attendance and Quiz",
+        "                    10%"
+      ],
+      [
+        "Final Grade",
+        "100%"
+      ]
+    ]
+  ],
+  "recitationNote": "When called to recitation and absent will get 40 points, present and haven’t answer anything 60%.",
+  "consultation": "By appointment, before or after class, or through the professor's official email or School of Law consultation schedule.",
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Administrative Law",
+      "topics": [
+        "topic-1",
+        "topic-2",
+        "topic-3",
+        "topic-4",
+        "topic-5",
+        "topic-6",
+        "topic-7",
+        "topic-8",
+        "topic-9",
+        "topic-10"
+      ]
+    },
+    {
+      "id": "part-2",
+      "title": "Law On Public Officers",
+      "topics": [
+        "topic-11",
+        "topic-12",
+        "topic-13",
+        "topic-14",
+        "topic-15",
+        "topic-16",
+        "topic-17",
+        "topic-18",
+        "topic-19",
+        "topic-20"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic-1",
+      "title": "General considerations",
+      "partId": "part-1",
+      "description": [
+        "Nature; Origin, development, and current status",
+        "Sources: Constitution/Statutes (Article IX, 1987 Constitution; EO No. 292); Court Decisions; Rules/Regulations of Administrative Bodies; Determinations/Orders of Administrative Bodies",
+        "Administration",
+        "Distinguished from Law"
+      ],
+      "sections": [],
+      "caseIds": [
+        "aratuc-v-comelec",
+        "maceda-v-erb",
+        "us-v-dorr",
+        "poindexter-v-greenhow",
+        "angara-v-electoral-commission",
+        "pangasinan-transportation-v-psc",
+        "in-re-rodolfo-manzano",
+        "solid-homes-v-payawal"
+      ]
+    },
+    {
+      "id": "topic-2",
+      "title": "Administrative agencies",
+      "partId": "part-1",
+      "description": [
+        "Definition; Nature; Creation and Abolition; Advantages; Relation to Regular Executive Departments; Control (by the President, Congress, Judiciary, and Ombudsman)"
+      ],
+      "sections": [
+        {
+          "title": "A.  Control of Administrative Action",
+          "description": [
+            "By the President (Control; Doctrine of Qualified Political Agency/Alter Ego Principle); By Congress; By the Judiciary; By the Ombudsman"
+          ]
+        }
+      ],
+      "caseIds": [
+        "eugenio-v-csc",
+        "miaa-v-ca",
+        "buklod-ng-kawaning-eiib-v-zamora",
+        "biraogo-v-philippine-truth-commission-of-2010",
+        "pichay-jr-v-office-of-the-deputy-executive-secretary",
+        "republic-v-court-of-appeals",
+        "atienza-v-comelec",
+        "mondano-v-silvosa",
+        "philippine-gamefowl-commission-v-iac",
+        "carpio-v-executive-secretary",
+        "moran-jr-v-office-of-the-president",
+        "psalm-v-cir",
+        "bocea-v-biazon",
+        "nha-v-commission-on-audit",
+        "manalang-demigillo-v-tidcorp",
+        "sabio-v-sandiganbayan",
+        "mendoza-v-pilipinas-shell",
+        "ople-v-torres",
+        "macalintal-v-comelec",
+        "abakada-guro-party-list-v-purisima"
+      ]
+    },
+    {
+      "id": "topic-3",
+      "title": "Powers of administrative agencies (general)",
+      "partId": "part-1",
+      "description": [
+        "Quasi-Legislative/Rule-Making; Quasi-Judicial/Adjudicatory; Fact-Finding and Investigatory; Licensing; Rate-Fixing"
+      ],
+      "sections": [
+        {
+          "title": "A.  Quasi-Legislative Power",
+          "description": [
+            "In General; Doctrine of Delegation of Legislative Power; Requisites/Tests for Valid Delegation; Kinds of Rules"
+          ]
+        },
+        {
+          "title": "B.  Quasi-Judicial Power",
+          "description": [
+            "In General; Implements of Adjudicatory Power"
+          ]
+        },
+        {
+          "title": "C.  Fact-Finding and Investigatory",
+          "description": []
+        },
+        {
+          "title": "D.  Licensing",
+          "description": []
+        },
+        {
+          "title": "E.  Rate-Fixing",
+          "description": []
+        }
+      ],
+      "caseIds": [
+        "smart-communications-v-ntc",
+        "cir-v-ca",
+        "soriano-v-laguardia",
+        "llda-v-ca",
+        "matienzo-v-abellera",
+        "ynot-v-iac",
+        "pelaez-v-auditor-general",
+        "abakada-guro-party-list-v-ermita",
+        "us-v-ang-tang-ho",
+        "eastern-shipping-lines-v-poea",
+        "kmu-v-garcia",
+        "people-v-maceren",
+        "sec-v-1accountants-party-list-inc",
+        "boc-employees-v-teves",
+        "chiongbian-v-orbos",
+        "ynot-v-iac",
+        "sec-v-universal-rightfield-property-holdings",
+        "pagcor-v-fontana-development-corp",
+        "santiago-v-bautista",
+        "evangelista-v-jarencio",
+        "heirs-of-zoleta-v-land-bank-of-the-philippines",
+        "board-of-commissioners-of-the-bid-v-yuan-wenle",
+        "people-v-o-cochlain",
+        "venus-commercial-v-fda",
+        "qua-chee-gan-v-deportation-board",
+        "carino-v-chr",
+        "quisumbing-v-rosales",
+        "new-vision-satellite-network-inc-v-cagayan",
+        "philcomsat-v-alcuaz"
+      ]
+    },
+    {
+      "id": "topic-4",
+      "title": "Administrative procedure",
+      "partId": "part-1",
+      "description": [
+        "For Rule-Making; For Adjudication; Administrative Due Process; Administrative Appeal and Review; Administrative Res Judicata"
+      ],
+      "sections": [
+        {
+          "title": "A.  For Rule-Making",
+          "description": []
+        },
+        {
+          "title": "B.  For Adjudication",
+          "description": []
+        }
+      ],
+      "caseIds": [
+        "commissioner-of-customs-v-hypermix-feeds-corp",
+        "review-center-association-of-the-phils-v-ermita",
+        "lokin-jr-v-comelec",
+        "department-of-health-v-philip-morris",
+        "genuino-v-de-lima",
+        "soliman-v-santos",
+        "bartolome-v-social-security-system",
+        "perez-v-lpg-refillers-association-of-the-phils",
+        "board-of-trustees-of-the-gsis-v-velasco",
+        "pse-v-secretary-of-finance",
+        "tanada-v-tuvera",
+        "subido-v-court-of-appeals",
+        "velasquez-jr-v-lisondra-land-inc"
+      ]
+    },
+    {
+      "id": "topic-5",
+      "title": "Administrative due process",
+      "partId": "part-1",
+      "description": [],
+      "sections": [],
+      "caseIds": [
+        "ang-tibay-v-cir",
+        "air-manila-inc-v-balatbat",
+        "vivo-v-pagcor",
+        "go-v-colegio-de-san-juan-de-letran",
+        "department-of-trade-and-industry-v-enriquez",
+        "acuzar-v-jorolan",
+        "equitable-banking-corp-v-nlrc",
+        "lumiqued-v-exevea",
+        "office-of-the-ombudsman-v-reyes",
+        "american-tobacco-co-v-director-of-patents",
+        "magcamit-v-internal-affairs-service"
+      ]
+    },
+    {
+      "id": "topic-6",
+      "title": "Administrative appeal, review, and res judicata",
+      "partId": "part-1",
+      "description": [],
+      "sections": [],
+      "caseIds": [
+        "rivera-v-civil-service-commission-and-land-bank-of-the-philippines",
+        "heirs-of-derla-v-heirs-of-hipolito"
+      ]
+    },
+    {
+      "id": "topic-7",
+      "title": "Quasi-legislative power (detailed treatment)",
+      "partId": "part-1",
+      "description": [],
+      "sections": [
+        {
+          "title": "A.  Kinds of Administrative Regulations (Interpretative; Legislative)",
+          "description": []
+        },
+        {
+          "title": "B.  Requisites for Validity",
+          "description": []
+        },
+        {
+          "title": "1.  Authorized Promulgation",
+          "description": []
+        },
+        {
+          "title": "2.  Within the Scope of Authority",
+          "description": []
+        },
+        {
+          "title": "3.  Promulgated in Accordance with Prescribed Procedure",
+          "description": []
+        }
+      ],
+      "caseIds": [
+        "eslao-v-coa",
+        "peralta-v-csc",
+        "la-bugal-b-laan-tribal-association-v-ramos",
+        "victorias-milling-co-inc-v-sss",
+        "executive-secretary-v-southwing-heavy-industries",
+        "dagan-v-philippine-racing-commission",
+        "republic-v-drugmaker-s-laboratories-inc",
+        "astec-v-erc",
+        "republic-v-maria-basa-express-jeepney-operators-and-drivers-association-inc",
+        "sobrejuanite-flores-v-pilando-jr",
+        "province-of-pampanga-v-romulo",
+        "gsis-v-daymiel",
+        "central-bank-employees-association-v-bsp",
+        "tayug-rural-bank-v-central-bank",
+        "boie-takeda-chemicals-v-de-la-serna",
+        "cir-v-central-luzon-drug-corp",
+        "tanada-v-angara",
+        "tanada-v-tuvera",
+        "corona-v-united-harbor-pilots-association"
+      ]
+    },
+    {
+      "id": "topic-8",
+      "title": "Quasi-judicial power (detailed treatment) — administrative due process",
+      "partId": "part-1",
+      "description": [
+        "Rules of Procedure; Subpoena Power; Contempt Power; Notice and Hearing",
+        "Administrative Due Process; Administrative Appeals and Review; Enforcement of Decisions; Res Judicata"
+      ],
+      "sections": [],
+      "caseIds": [
+        "csc-v-ledesma",
+        "estrada-v-ombudsman",
+        "secretary-of-justice-v-lantion",
+        "garcia-v-drilon"
+      ]
+    },
+    {
+      "id": "topic-9",
+      "title": "Judicial review",
+      "partId": "part-1",
+      "description": [
+        "General Rule; Doctrine of Primary Jurisdiction; Doctrine of Exhaustion of Administrative Remedies; Doctrine of Finality of Administrative Action; Reviewable Questions (Fact vs. Law)"
+      ],
+      "sections": [
+        {
+          "title": "A.  Doctrine of Primary Jurisdiction",
+          "description": []
+        },
+        {
+          "title": "B.  Doctrine of Exhaustion of Administrative Remedies",
+          "description": []
+        },
+        {
+          "title": "C.  Doctrine of Finality of Administrative Action",
+          "description": []
+        }
+      ],
+      "caseIds": [
+        "chung-fu-industries-v-ca",
+        "paat-v-ca",
+        "valmonte-v-belmonte-jr",
+        "globe-telecom-v-ntc",
+        "land-bank-of-the-philippines-v-ca",
+        "remolona-v-csc",
+        "department-of-finance-v-ventura",
+        "gma-network-inc-v-abs-cbn-broadcasting-corp",
+        "republic-v-lacap",
+        "shopping-center-management-corp-v-galutera",
+        "alliance-of-non-life-insurance-workers-v-mendoza",
+        "regino-v-pangasinan-colleges-of-science-and-technology",
+        "maglalang-v-pagcor",
+        "legaspi-v-comelec",
+        "civil-service-commission-v-moralde",
+        "trillanes-v-medialdea"
+      ]
+    },
+    {
+      "id": "topic-10",
+      "title": "Judicial enforcement of administrative action",
+      "partId": "part-1",
+      "description": [],
+      "sections": [],
+      "caseIds": [
+        "clavano-v-hlurb"
+      ]
+    },
+    {
+      "id": "topic-11",
+      "title": "General principles and the public officer",
+      "partId": "part-2",
+      "description": [
+        "Public Office defined; Elements; Creation",
+        "Public Officer defined; Distinguished from the criminal-law concept; Distinguished from a clerk/employee"
+      ],
+      "sections": [],
+      "caseIds": [
+        "laurel-v-desierto",
+        "azarcon-v-sandiganbayan",
+        "fernandez-v-sto-tomas",
+        "secretary-of-dotc-v-mabalot",
+        "javier-v-sandiganbayan",
+        "farinas-v-executive-secretary",
+        "aguila-v-genato"
+      ]
+    },
+    {
+      "id": "topic-12",
+      "title": "Eligibility, qualification, and disqualification",
+      "partId": "part-2",
+      "description": [
+        "Endowments/qualities/attributes; General Disqualifications (Secs. 6-7, Art. IX-B); Specific Disqualifications (multiple positions, e.g. Secs. 13, Art. VI & VII)"
+      ],
+      "sections": [],
+      "caseIds": [
+        "frivaldo-v-comelec",
+        "civil-liberties-union-v-executive-secretary",
+        "flores-v-drilon",
+        "macalino-v-coa",
+        "public-interest-center-v-elma"
+      ]
+    },
+    {
+      "id": "topic-13",
+      "title": "De jure and de facto officers",
+      "partId": "part-2",
+      "description": [
+        "Distinctions; Legal Effects of Acts; Remedies (Quo Warranto)"
+      ],
+      "sections": [],
+      "caseIds": [
+        "monroy-v-ca",
+        "tayko-v-capistrano",
+        "luna-v-rodriguez",
+        "tuanda-v-sandiganbayan",
+        "corpuz-v-ca",
+        "republic-v-sereno",
+        "general-manager-ppa-v-monserate",
+        "arroyo-v-court-of-appeals",
+        "torrosa-v-singson",
+        "bongbong-v-parado",
+        "mendoza-v-allas",
+        "mun-of-payao-v-mun-of-imelda"
+      ]
+    },
+    {
+      "id": "topic-14",
+      "title": "Term and tenure; commencement of official relations — appointment",
+      "partId": "part-2",
+      "description": [
+        "How commenced (appointment/election); Classification (permanent/temporary; regular/ad interim)",
+        "Steps in the appointing process; Discretion of the Appointing Authority; Judicial Review of Appointments",
+        "Jurisdiction of the CSC; Appointments to the Civil Service (career/non-career; exempt positions)"
+      ],
+      "sections": [],
+      "caseIds": [
+        "sarmiento-v-mison",
+        "luego-v-csc",
+        "matibag-v-benipayo",
+        "pimentel-v-ermita",
+        "bautista-v-salonga",
+        "velicaria-garafil-v-office-of-the-president",
+        "funa-v-chairman-coa"
+      ]
+    },
+    {
+      "id": "topic-15",
+      "title": "Powers and duties; prohibitions",
+      "partId": "part-2",
+      "description": [
+        "Authority (classification, doctrine of necessary implication); Ministerial and Discretionary duties",
+        "General and Specific Duties; Prohibitions (partisanship, double compensation, loans, nepotism, double office)"
+      ],
+      "sections": [],
+      "caseIds": [
+        "csc-v-dacoycoy",
+        "angchangco-jr-v-ombudsman",
+        "debulgado-v-csc",
+        "csc-v-cortes",
+        "gsis-v-kapisanan-ng-mga-manggagawa-sa-gsis",
+        "davao-city-water-district-v-aranjuez"
+      ]
+    },
+    {
+      "id": "topic-16",
+      "title": "Liability",
+      "partId": "part-2",
+      "description": [
+        "General Rule; Statutory Liability; Liability on Contracts; Liability for Tort",
+        "Presidential Immunity; Threefold Liability Rule; Command Responsibility"
+      ],
+      "sections": [],
+      "caseIds": [
+        "estrada-v-desierto",
+        "shauf-v-ca",
+        "tecson-v-sandiganbayan",
+        "matobato-sr-v-people",
+        "larin-v-executive-secretary",
+        "duque-jr-v-brillantes-jr",
+        "republic-v-desierto"
+      ]
+    },
+    {
+      "id": "topic-17",
+      "title": "Rights; self-organization",
+      "partId": "part-2",
+      "description": [
+        "Office (term/tenure); Salary (basis, preventive suspension, back salary, allowances); Preference in Promotion",
+        "Vacation and Sick Leave; Maternity/Paternity Leave; Retirement Pay; Self-Organization; Other benefits"
+      ],
+      "sections": [],
+      "caseIds": [
+        "cena-v-csc",
+        "gsis-v-csc"
+      ]
+    },
+    {
+      "id": "topic-18",
+      "title": "Accountability of public officers (the ombudsman and impeachment)",
+      "partId": "part-2",
+      "description": [
+        "The Ombudsman: Appointment; Independence; Fiscal Autonomy; Qualifications; Powers, Functions, and Duties",
+        "The Special Prosecutor; Recovery of Ill-Gotten Wealth; Impeachment"
+      ],
+      "sections": [],
+      "caseIds": [
+        "gonzales-iii-v-office-of-the-president",
+        "villa-ignacio-v-sulit",
+        "santos-v-rasalan",
+        "office-of-the-ombudsman-v-court-of-appeals",
+        "morales-jr-v-carpio-morales",
+        "francisco-jr-v-house-of-representatives"
+      ]
+    },
+    {
+      "id": "topic-19",
+      "title": "Personnel actions and disciplinary proceedings",
+      "partId": "part-2",
+      "description": [
+        "Reinstatement; Principles of Discipline; Preventive Suspension"
+      ],
+      "sections": [],
+      "caseIds": [
+        "campol-v-balao-as",
+        "npc-dama-v-npc",
+        "melchor-v-gironella",
+        "ombudsman-v-andutan-jr",
+        "villena-lopez-v-lopez",
+        "csc-v-juen",
+        "flores-concepcion-v-castaneda",
+        "gloria-v-ca",
+        "csc-v-cruz"
+      ]
+    },
+    {
+      "id": "topic-20",
+      "title": "Termination of official relations",
+      "partId": "part-2",
+      "description": [
+        "Expiration of Term/Tenure; Hold-over Principle; Age Limit/Compulsory and Special Retirement",
+        "Resignation (form, courtesy resignation, voluntariness, acceptance, effectivity)",
+        "Recall (initiation, procedure, election, effectivity, limitations); Removal (security of tenure, grounds, procedure, jurisdiction); Judicial Review of Disciplinary Cases"
+      ],
+      "sections": [],
+      "caseIds": [
+        "carpio-morales-v-ca",
+        "dario-v-mison",
+        "civil-service-commission-v-cutao",
+        "de-rama-v-coa",
+        "rodrigo-v-sandiganbayan",
+        "defensor-santiago-v-sandiganbayan",
+        "de-lima-v-guerrero",
+        "tsunami-management-corp-v-ombudsman",
+        "yatco-v-office-of-the-deputy-ombudsman-for-luzon",
+        "espina-v-soriano"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "aratuc-v-comelec",
+      "title": "Aratuc v. COMELEC",
+      "syllabusCitations": [
+        "Aratuc v. COMELEC, 88 SCRA 251"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "maceda-v-erb",
+      "title": "Maceda v. ERB",
+      "syllabusCitations": [
+        "Maceda v. ERB, 192 SCRA 363"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "us-v-dorr",
+      "title": "US v. Dorr",
+      "syllabusCitations": [
+        "US v. Dorr, 2 Phil 332"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "poindexter-v-greenhow",
+      "title": "Poindexter v. Greenhow",
+      "syllabusCitations": [
+        "Poindexter v. Greenhow, 114 US 270"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "angara-v-electoral-commission",
+      "title": "Angara v. Electoral Commission",
+      "syllabusCitations": [
+        "Angara v. Electoral Commission, G.R. No. L-45081, 1936"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "pangasinan-transportation-v-psc",
+      "title": "Pangasinan Transportation v. PSC",
+      "syllabusCitations": [
+        "Pangasinan Transportation v. PSC, G.R. No. 47065, 1940"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "in-re-rodolfo-manzano",
+      "title": "In Re: Rodolfo Manzano",
+      "syllabusCitations": [
+        "In Re: Rodolfo Manzano, A.M. No. 88-7-1861-RTC, 1988"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "solid-homes-v-payawal",
+      "title": "Solid Homes v. Payawal",
+      "syllabusCitations": [
+        "Solid Homes v. Payawal, G.R. No. 84811, 1989"
+      ],
+      "topicIds": [
+        "topic-1"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "eugenio-v-csc",
+      "title": "Eugenio v. CSC",
+      "syllabusCitations": [
+        "Eugenio v. CSC, 243 SCRA 196"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "miaa-v-ca",
+      "title": "MIAA v. CA",
+      "syllabusCitations": [
+        "MIAA v. CA, July 20, 2006"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "buklod-ng-kawaning-eiib-v-zamora",
+      "title": "Buklod ng Kawaning EIIB v. Zamora",
+      "syllabusCitations": [
+        "Buklod ng Kawaning EIIB v. Zamora, July 10, 2001"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "biraogo-v-philippine-truth-commission-of-2010",
+      "title": "Biraogo v. Philippine Truth Commission of 2010",
+      "syllabusCitations": [
+        "Biraogo v. Philippine Truth Commission of 2010, G.R. Nos. 192935 & 193036, 2010"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "pichay-jr-v-office-of-the-deputy-executive-secretary",
+      "title": "Pichay, Jr. v. Office of the Deputy Executive Secretary",
+      "syllabusCitations": [
+        "Pichay, Jr. v. Office of the Deputy Executive Secretary, G.R. No. 196425, 2012"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "republic-v-court-of-appeals",
+      "title": "Republic v. Court of Appeals",
+      "syllabusCitations": [
+        "Republic v. Court of Appeals, G.R. No. 90482, 1991"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "atienza-v-comelec",
+      "title": "Atienza v. COMELEC",
+      "syllabusCitations": [
+        "Atienza v. COMELEC, G.R. No. 188920, 2010"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "mondano-v-silvosa",
+      "title": "Mondano v. Silvosa",
+      "syllabusCitations": [
+        "Mondano v. Silvosa, G.R. No. L-7708, 1955"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "philippine-gamefowl-commission-v-iac",
+      "title": "Philippine Gamefowl Commission v. IAC",
+      "syllabusCitations": [
+        "Philippine Gamefowl Commission v. IAC, G.R. Nos. 72969-70, 1986"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "carpio-v-executive-secretary",
+      "title": "Carpio v. Executive Secretary",
+      "syllabusCitations": [
+        "Carpio v. Executive Secretary, February 14, 1992"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "moran-jr-v-office-of-the-president",
+      "title": "Moran, Jr. v. Office of the President",
+      "syllabusCitations": [
+        "Moran, Jr. v. Office of the President, G.R. No. 192957, 2014"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "psalm-v-cir",
+      "title": "PSALM v. CIR",
+      "syllabusCitations": [
+        "PSALM v. CIR, G.R. No. 198146, 2017"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "bocea-v-biazon",
+      "title": "BOCEA v. Biazon",
+      "syllabusCitations": [
+        "BOCEA v. Biazon, G.R. No. 205836, 2022"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "nha-v-commission-on-audit",
+      "title": "NHA v. Commission on Audit",
+      "syllabusCitations": [
+        "NHA v. Commission on Audit, G.R. Nos. 239936 & 252584, 2022"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "manalang-demigillo-v-tidcorp",
+      "title": "Manalang-Demigillo v. TIDCORP",
+      "syllabusCitations": [
+        "Manalang-Demigillo v. TIDCORP, G.R. Nos. 168613 & 185571, 2013"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "sabio-v-sandiganbayan",
+      "title": "Sabio v. Sandiganbayan",
+      "syllabusCitations": [
+        "Sabio v. Sandiganbayan, G.R. Nos. 233853-54, 2019"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "mendoza-v-pilipinas-shell",
+      "title": "Mendoza v. Pilipinas Shell",
+      "syllabusCitations": [
+        "Mendoza v. Pilipinas Shell, G.R. No. 209216, 2023"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "ople-v-torres",
+      "title": "Ople v. Torres",
+      "syllabusCitations": [
+        "Ople v. Torres, G.R. No. 127685, 1998"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "macalintal-v-comelec",
+      "title": "Macalintal v. COMELEC",
+      "syllabusCitations": [
+        "Macalintal v. COMELEC, G.R. No. 157013, 2003"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "abakada-guro-party-list-v-purisima",
+      "title": "Abakada Guro Party List v. Purisima",
+      "syllabusCitations": [
+        "Abakada Guro Party List v. Purisima, G.R. No. 166715, 2008"
+      ],
+      "topicIds": [
+        "topic-2"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "smart-communications-v-ntc",
+      "title": "Smart Communications v. NTC",
+      "syllabusCitations": [
+        "Smart Communications v. NTC, 408 SCRA 678"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cir-v-ca",
+      "title": "CIR v. CA",
+      "syllabusCitations": [
+        "CIR v. CA, 261 SCRA 236"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "soriano-v-laguardia",
+      "title": "Soriano v. Laguardia",
+      "syllabusCitations": [
+        "Soriano v. Laguardia, G.R. No. 164785, 2009"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "llda-v-ca",
+      "title": "LLDA v. CA",
+      "syllabusCitations": [
+        "LLDA v. CA, G.R. Nos. 120865-71, 1995"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "matienzo-v-abellera",
+      "title": "Matienzo v. Abellera",
+      "syllabusCitations": [
+        "Matienzo v. Abellera, G.R. No. L-45839, 1988"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "ynot-v-iac",
+      "title": "Ynot v. IAC",
+      "syllabusCitations": [
+        "Ynot v. IAC, 148 SCRA 659",
+        "Ynot v. IAC, supra (see above)"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "pelaez-v-auditor-general",
+      "title": "Pelaez v. Auditor General",
+      "syllabusCitations": [
+        "Pelaez v. Auditor General, 15 SCRA 569"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "abakada-guro-party-list-v-ermita",
+      "title": "Abakada Guro Party List v. Ermita",
+      "syllabusCitations": [
+        "Abakada Guro Party List v. Ermita, 469 SCRA 1"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "us-v-ang-tang-ho",
+      "title": "US v. Ang Tang Ho",
+      "syllabusCitations": [
+        "US v. Ang Tang Ho, 43 Phil 1"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "eastern-shipping-lines-v-poea",
+      "title": "Eastern Shipping Lines v. POEA",
+      "syllabusCitations": [
+        "Eastern Shipping Lines v. POEA, 166 SCRA 533, 1988"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "kmu-v-garcia",
+      "title": "KMU v. Garcia",
+      "syllabusCitations": [
+        "KMU v. Garcia, G.R. No. 115381, 1994"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "people-v-maceren",
+      "title": "People v. Maceren",
+      "syllabusCitations": [
+        "People v. Maceren, G.R. No. L-32166, 1977"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "sec-v-1accountants-party-list-inc",
+      "title": "SEC v. 1Accountants Party-List, Inc.",
+      "syllabusCitations": [
+        "SEC v. 1Accountants Party-List, Inc., G.R. No. 246027, 2022"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "boc-employees-v-teves",
+      "title": "BOC Employees v. Teves",
+      "syllabusCitations": [
+        "BOC Employees v. Teves, G.R. No. 181704, 2011"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "chiongbian-v-orbos",
+      "title": "Chiongbian v. Orbos",
+      "syllabusCitations": [
+        "Chiongbian v. Orbos, G.R. Nos. 96754 & 96673, 1995"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "sec-v-universal-rightfield-property-holdings",
+      "title": "SEC v. Universal Rightfield Property Holdings",
+      "syllabusCitations": [
+        "SEC v. Universal Rightfield Property Holdings, G.R. No. 181381, 2015"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "pagcor-v-fontana-development-corp",
+      "title": "PAGCOR v. Fontana Development Corp.",
+      "syllabusCitations": [
+        "PAGCOR v. Fontana Development Corp., June 29, 2010"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "santiago-v-bautista",
+      "title": "Santiago v. Bautista",
+      "syllabusCitations": [
+        "Santiago v. Bautista, G.R. No. L-25024, 1970"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "evangelista-v-jarencio",
+      "title": "Evangelista v. Jarencio",
+      "syllabusCitations": [
+        "Evangelista v. Jarencio, G.R. No. L-29274, 1975"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "heirs-of-zoleta-v-land-bank-of-the-philippines",
+      "title": "Heirs of Zoleta v. Land Bank of the Philippines",
+      "syllabusCitations": [
+        "Heirs of Zoleta v. Land Bank of the Philippines, G.R. No. 205128, 2017"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "board-of-commissioners-of-the-bid-v-yuan-wenle",
+      "title": "Board of Commissioners of the BID v. Yuan Wenle",
+      "syllabusCitations": [
+        "Board of Commissioners of the BID v. Yuan Wenle, G.R. No. 242957, 2023"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "people-v-o-cochlain",
+      "title": "People v. O'Cochlain",
+      "syllabusCitations": [
+        "People v. O'Cochlain, G.R. No. 229071, 2018"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "venus-commercial-v-fda",
+      "title": "Venus Commercial v. FDA",
+      "syllabusCitations": [
+        "Venus Commercial v. FDA, G.R. No. 240764, 2021"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "qua-chee-gan-v-deportation-board",
+      "title": "Qua Chee Gan v. Deportation Board",
+      "syllabusCitations": [
+        "Qua Chee Gan v. Deportation Board, G.R. No. L-10280, 1963"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "carino-v-chr",
+      "title": "Cariño v. CHR",
+      "syllabusCitations": [
+        "Cariño v. CHR, G.R. No. 96681, 1991"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "quisumbing-v-rosales",
+      "title": "Quisumbing v. Rosales",
+      "syllabusCitations": [
+        "Quisumbing v. Rosales, G.R. No. 209283, 2015"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "new-vision-satellite-network-inc-v-cagayan",
+      "title": "New Vision Satellite Network, Inc. v. Cagayan",
+      "syllabusCitations": [
+        "New Vision Satellite Network, Inc. v. Cagayan, G.R. No. 248840, 2021"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "philcomsat-v-alcuaz",
+      "title": "Philcomsat v. Alcuaz",
+      "syllabusCitations": [
+        "Philcomsat v. Alcuaz, G.R. No. 84818, 1989"
+      ],
+      "topicIds": [
+        "topic-3"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "commissioner-of-customs-v-hypermix-feeds-corp",
+      "title": "Commissioner of Customs v. Hypermix Feeds Corp.",
+      "syllabusCitations": [
+        "Commissioner of Customs v. Hypermix Feeds Corp., G.R. No. 179579, 2012"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "review-center-association-of-the-phils-v-ermita",
+      "title": "Review Center Association of the Phils. v. Ermita",
+      "syllabusCitations": [
+        "Review Center Association of the Phils. v. Ermita, G.R. No. 180046, 2009"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "lokin-jr-v-comelec",
+      "title": "Lokin, Jr. v. COMELEC",
+      "syllabusCitations": [
+        "Lokin, Jr. v. COMELEC, G.R. Nos. 179431-32 & 180443, 2010"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "department-of-health-v-philip-morris",
+      "title": "Department of Health v. Philip Morris",
+      "syllabusCitations": [
+        "Department of Health v. Philip Morris, G.R. No. 202943, 2015"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "genuino-v-de-lima",
+      "title": "Genuino v. De Lima",
+      "syllabusCitations": [
+        "Genuino v. De Lima, G.R. Nos. 197930, 199034 & 199046, 2018"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "soliman-v-santos",
+      "title": "Soliman v. Santos",
+      "syllabusCitations": [
+        "Soliman v. Santos, G.R. Nos. 202417 & 203245, 2023"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "bartolome-v-social-security-system",
+      "title": "Bartolome v. Social Security System",
+      "syllabusCitations": [
+        "Bartolome v. Social Security System, G.R. No. 192531, 2014"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "perez-v-lpg-refillers-association-of-the-phils",
+      "title": "Perez v. LPG Refillers Association of the Phils.",
+      "syllabusCitations": [
+        "Perez v. LPG Refillers Association of the Phils., G.R. No. 159149, 2006"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "board-of-trustees-of-the-gsis-v-velasco",
+      "title": "Board of Trustees of the GSIS v. Velasco",
+      "syllabusCitations": [
+        "Board of Trustees of the GSIS v. Velasco, G.R. No. 170463, 2011"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "pse-v-secretary-of-finance",
+      "title": "PSE v. Secretary of Finance",
+      "syllabusCitations": [
+        "PSE v. Secretary of Finance, G.R. No. 213860, 2022"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tanada-v-tuvera",
+      "title": "Tañada v. Tuvera",
+      "syllabusCitations": [
+        "Tañada v. Tuvera, G.R. No. L-63915, Resolution, 1986",
+        "Tañada v. Tuvera, 146 SCRA 446"
+      ],
+      "topicIds": [
+        "topic-4",
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "subido-v-court-of-appeals",
+      "title": "Subido v. Court of Appeals",
+      "syllabusCitations": [
+        "Subido v. Court of Appeals, G.R. No. 216914, 2016"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "velasquez-jr-v-lisondra-land-inc",
+      "title": "Velasquez, Jr. v. Lisondra Land, Inc.",
+      "syllabusCitations": [
+        "Velasquez, Jr. v. Lisondra Land, Inc., G.R. No. 231290, 2020"
+      ],
+      "topicIds": [
+        "topic-4"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "ang-tibay-v-cir",
+      "title": "Ang Tibay v. CIR",
+      "syllabusCitations": [
+        "Ang Tibay v. CIR, G.R. No. 46496, 1940"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "air-manila-inc-v-balatbat",
+      "title": "Air Manila, Inc. v. Balatbat",
+      "syllabusCitations": [
+        "Air Manila, Inc. v. Balatbat, G.R. No. L-29064, 1971"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "vivo-v-pagcor",
+      "title": "Vivo v. PAGCOR",
+      "syllabusCitations": [
+        "Vivo v. PAGCOR, G.R. No. 187854, 2013"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "go-v-colegio-de-san-juan-de-letran",
+      "title": "Go v. Colegio de San Juan de Letran",
+      "syllabusCitations": [
+        "Go v. Colegio de San Juan de Letran, G.R. No. 169391, 2012"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "department-of-trade-and-industry-v-enriquez",
+      "title": "Department of Trade and Industry v. Enriquez",
+      "syllabusCitations": [
+        "Department of Trade and Industry v. Enriquez, G.R. No. 225301, 2020"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "acuzar-v-jorolan",
+      "title": "Acuzar v. Jorolan",
+      "syllabusCitations": [
+        "Acuzar v. Jorolan, G.R. No. 177878, 2010"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "equitable-banking-corp-v-nlrc",
+      "title": "Equitable Banking Corp. v. NLRC",
+      "syllabusCitations": [
+        "Equitable Banking Corp. v. NLRC, G.R. No. 102467, 1997"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "lumiqued-v-exevea",
+      "title": "Lumiqued v. Exevea",
+      "syllabusCitations": [
+        "Lumiqued v. Exevea, G.R. No. 117565, 1997"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "office-of-the-ombudsman-v-reyes",
+      "title": "Office of the Ombudsman v. Reyes",
+      "syllabusCitations": [
+        "Office of the Ombudsman v. Reyes, G.R. No. 170512, 2011"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "american-tobacco-co-v-director-of-patents",
+      "title": "American Tobacco Co. v. Director of Patents",
+      "syllabusCitations": [
+        "American Tobacco Co. v. Director of Patents, G.R. No. L-26803, 1975"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "magcamit-v-internal-affairs-service",
+      "title": "Magcamit v. Internal Affairs Service",
+      "syllabusCitations": [
+        "Magcamit v. Internal Affairs Service, G.R. No. 198140, 2016"
+      ],
+      "topicIds": [
+        "topic-5"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "rivera-v-civil-service-commission-and-land-bank-of-the-philippines",
+      "title": "Rivera v. Civil Service Commission and Land Bank of the Philippines",
+      "syllabusCitations": [
+        "Rivera v. Civil Service Commission and Land Bank of the Philippines, G.R. No. 115147, 1995"
+      ],
+      "topicIds": [
+        "topic-6"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "heirs-of-derla-v-heirs-of-hipolito",
+      "title": "Heirs of Derla v. Heirs of Hipolito",
+      "syllabusCitations": [
+        "Heirs of Derla v. Heirs of Hipolito, G.R. No. 157717, 2011"
+      ],
+      "topicIds": [
+        "topic-6"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "eslao-v-coa",
+      "title": "Eslao v. COA",
+      "syllabusCitations": [
+        "Eslao v. COA, 236 SCRA 161"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "peralta-v-csc",
+      "title": "Peralta v. CSC",
+      "syllabusCitations": [
+        "Peralta v. CSC, 211 SCRA 425"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "la-bugal-b-laan-tribal-association-v-ramos",
+      "title": "La Bugal-B'laan Tribal Association v. Ramos",
+      "syllabusCitations": [
+        "La Bugal-B'laan Tribal Association v. Ramos, 421 SCRA 148"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "victorias-milling-co-inc-v-sss",
+      "title": "Victorias Milling Co., Inc. v. SSS",
+      "syllabusCitations": [
+        "Victorias Milling Co., Inc. v. SSS, G.R. No. L-16704, 1962"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "executive-secretary-v-southwing-heavy-industries",
+      "title": "Executive Secretary v. Southwing Heavy Industries",
+      "syllabusCitations": [
+        "Executive Secretary v. Southwing Heavy Industries, March 1, 2006"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "dagan-v-philippine-racing-commission",
+      "title": "Dagan v. Philippine Racing Commission",
+      "syllabusCitations": [
+        "Dagan v. Philippine Racing Commission, February 12, 2009"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "republic-v-drugmaker-s-laboratories-inc",
+      "title": "Republic v. Drugmaker's Laboratories, Inc.",
+      "syllabusCitations": [
+        "Republic v. Drugmaker's Laboratories, Inc., G.R. No. 190837, 2014"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "astec-v-erc",
+      "title": "ASTEC v. ERC",
+      "syllabusCitations": [
+        "ASTEC v. ERC, G.R. No. 192117, 2012"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "republic-v-maria-basa-express-jeepney-operators-and-drivers-association-inc",
+      "title": "Republic v. Maria Basa Express Jeepney Operators and Drivers Association, Inc.",
+      "syllabusCitations": [
+        "Republic v. Maria Basa Express Jeepney Operators and Drivers Association, Inc., G.R. No. 206486, 2022"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "sobrejuanite-flores-v-pilando-jr",
+      "title": "Sobrejuanite-Flores v. Pilando, Jr.",
+      "syllabusCitations": [
+        "Sobrejuanite-Flores v. Pilando, Jr., G.R. No. 251816, 2021"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "province-of-pampanga-v-romulo",
+      "title": "Province of Pampanga v. Romulo",
+      "syllabusCitations": [
+        "Province of Pampanga v. Romulo, G.R. No. 195987, 2021"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "gsis-v-daymiel",
+      "title": "GSIS v. Daymiel",
+      "syllabusCitations": [
+        "GSIS v. Daymiel, G.R. No. 218097, 2019"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "central-bank-employees-association-v-bsp",
+      "title": "Central Bank Employees Association v. BSP",
+      "syllabusCitations": [
+        "Central Bank Employees Association v. BSP, 307 SCRA 443"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tayug-rural-bank-v-central-bank",
+      "title": "Tayug Rural Bank v. Central Bank",
+      "syllabusCitations": [
+        "Tayug Rural Bank v. Central Bank, 146 SCRA 120"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "boie-takeda-chemicals-v-de-la-serna",
+      "title": "Boie-Takeda Chemicals v. De la Serna",
+      "syllabusCitations": [
+        "Boie-Takeda Chemicals v. De la Serna, 228 SCRA 329"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cir-v-central-luzon-drug-corp",
+      "title": "CIR v. Central Luzon Drug Corp.",
+      "syllabusCitations": [
+        "CIR v. Central Luzon Drug Corp., 456 SCRA 414"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tanada-v-angara",
+      "title": "Tañada v. Angara",
+      "syllabusCitations": [
+        "Tañada v. Angara, 272 SCRA 18"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "corona-v-united-harbor-pilots-association",
+      "title": "Corona v. United Harbor Pilots Association",
+      "syllabusCitations": [
+        "Corona v. United Harbor Pilots Association, December 12, 1997"
+      ],
+      "topicIds": [
+        "topic-7"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "csc-v-ledesma",
+      "title": "CSC v. Ledesma",
+      "syllabusCitations": [
+        "CSC v. Ledesma, 471 SCRA 589"
+      ],
+      "topicIds": [
+        "topic-8"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "estrada-v-ombudsman",
+      "title": "Estrada v. Ombudsman",
+      "syllabusCitations": [
+        "Estrada v. Ombudsman, January 21, 2015"
+      ],
+      "topicIds": [
+        "topic-8"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "secretary-of-justice-v-lantion",
+      "title": "Secretary of Justice v. Lantion",
+      "syllabusCitations": [
+        "Secretary of Justice v. Lantion, 322 SCRA 160"
+      ],
+      "topicIds": [
+        "topic-8"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "garcia-v-drilon",
+      "title": "Garcia v. Drilon",
+      "syllabusCitations": [
+        "Garcia v. Drilon, June 25, 2013"
+      ],
+      "topicIds": [
+        "topic-8"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "chung-fu-industries-v-ca",
+      "title": "Chung Fu Industries v. CA",
+      "syllabusCitations": [
+        "Chung Fu Industries v. CA, 206 SCRA 545"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "paat-v-ca",
+      "title": "Paat v. CA",
+      "syllabusCitations": [
+        "Paat v. CA, 266 SCRA 167"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "valmonte-v-belmonte-jr",
+      "title": "Valmonte v. Belmonte, Jr.",
+      "syllabusCitations": [
+        "Valmonte v. Belmonte, Jr., 170 SCRA 256"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "globe-telecom-v-ntc",
+      "title": "Globe Telecom v. NTC",
+      "syllabusCitations": [
+        "Globe Telecom v. NTC, 435 SCRA 110"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "land-bank-of-the-philippines-v-ca",
+      "title": "Land Bank of the Philippines v. CA",
+      "syllabusCitations": [
+        "Land Bank of the Philippines v. CA, 318 SCRA 144"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "remolona-v-csc",
+      "title": "Remolona v. CSC",
+      "syllabusCitations": [
+        "Remolona v. CSC, G.R. No. 137473, 2001"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "department-of-finance-v-ventura",
+      "title": "Department of Finance v. Ventura",
+      "syllabusCitations": [
+        "Department of Finance v. Ventura, G.R. Nos. 230260 & 231831, 2023"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "gma-network-inc-v-abs-cbn-broadcasting-corp",
+      "title": "GMA Network Inc. v. ABS-CBN Broadcasting Corp.",
+      "syllabusCitations": [
+        "GMA Network Inc. v. ABS-CBN Broadcasting Corp., G.R. No. 160703, 2005"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "republic-v-lacap",
+      "title": "Republic v. Lacap",
+      "syllabusCitations": [
+        "Republic v. Lacap, G.R. No. 158253, 2007"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "shopping-center-management-corp-v-galutera",
+      "title": "Shopping Center Management Corp. v. Galutera",
+      "syllabusCitations": [
+        "Shopping Center Management Corp. v. Galutera, G.R. No. E-02121, 2026"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "alliance-of-non-life-insurance-workers-v-mendoza",
+      "title": "Alliance of Non-Life Insurance Workers v. Mendoza",
+      "syllabusCitations": [
+        "Alliance of Non-Life Insurance Workers v. Mendoza, G.R. No. 206159, 2020"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "regino-v-pangasinan-colleges-of-science-and-technology",
+      "title": "Regino v. Pangasinan Colleges of Science and Technology",
+      "syllabusCitations": [
+        "Regino v. Pangasinan Colleges of Science and Technology, G.R. No. 156109, 2004"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "maglalang-v-pagcor",
+      "title": "Maglalang v. PAGCOR",
+      "syllabusCitations": [
+        "Maglalang v. PAGCOR, G.R. No. 190566, 2013"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "legaspi-v-comelec",
+      "title": "Legaspi v. COMELEC",
+      "syllabusCitations": [
+        "Legaspi v. COMELEC, G.R. No. 264661, 2024"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "civil-service-commission-v-moralde",
+      "title": "Civil Service Commission v. Moralde",
+      "syllabusCitations": [
+        "Civil Service Commission v. Moralde, G.R. No. 211077, 2018"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "trillanes-v-medialdea",
+      "title": "Trillanes v. Medialdea",
+      "syllabusCitations": [
+        "Trillanes v. Medialdea, G.R. No. 241494, 2024"
+      ],
+      "topicIds": [
+        "topic-9"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "clavano-v-hlurb",
+      "title": "Clavano v. HLURB",
+      "syllabusCitations": [
+        "Clavano v. HLURB, G.R. No. 143781, 2002"
+      ],
+      "topicIds": [
+        "topic-10"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "laurel-v-desierto",
+      "title": "Laurel v. Desierto",
+      "syllabusCitations": [
+        "Laurel v. Desierto, 381 SCRA 48, 2002"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "azarcon-v-sandiganbayan",
+      "title": "Azarcon v. Sandiganbayan",
+      "syllabusCitations": [
+        "Azarcon v. Sandiganbayan, 268 SCRA 747"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "fernandez-v-sto-tomas",
+      "title": "Fernandez v. Sto. Tomas",
+      "syllabusCitations": [
+        "Fernandez v. Sto. Tomas, G.R. No. 116418, 1995"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "secretary-of-dotc-v-mabalot",
+      "title": "Secretary of DOTC v. Mabalot",
+      "syllabusCitations": [
+        "Secretary of DOTC v. Mabalot, G.R. No. 138200, 2002"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "javier-v-sandiganbayan",
+      "title": "Javier v. Sandiganbayan",
+      "syllabusCitations": [
+        "Javier v. Sandiganbayan, G.R. Nos. 147026-27, 2009"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "farinas-v-executive-secretary",
+      "title": "Fariñas v. Executive Secretary",
+      "syllabusCitations": [
+        "Fariñas v. Executive Secretary, G.R. No. 147387, 2003"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "aguila-v-genato",
+      "title": "Aguila v. Genato",
+      "syllabusCitations": [
+        "Aguila v. Genato, G.R. No. L-55151, 1981"
+      ],
+      "topicIds": [
+        "topic-11"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "frivaldo-v-comelec",
+      "title": "Frivaldo v. COMELEC",
+      "syllabusCitations": [
+        "Frivaldo v. COMELEC, 257 SCRA 727"
+      ],
+      "topicIds": [
+        "topic-12"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "civil-liberties-union-v-executive-secretary",
+      "title": "Civil Liberties Union v. Executive Secretary",
+      "syllabusCitations": [
+        "Civil Liberties Union v. Executive Secretary, 194 SCRA 317"
+      ],
+      "topicIds": [
+        "topic-12"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "flores-v-drilon",
+      "title": "Flores v. Drilon",
+      "syllabusCitations": [
+        "Flores v. Drilon, G.R. No. 104732, 1993"
+      ],
+      "topicIds": [
+        "topic-12"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "macalino-v-coa",
+      "title": "Macalino v. COA",
+      "syllabusCitations": [
+        "Macalino v. COA, G.R. No. 253199, 2023"
+      ],
+      "topicIds": [
+        "topic-12"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "public-interest-center-v-elma",
+      "title": "Public Interest Center v. Elma",
+      "syllabusCitations": [
+        "Public Interest Center v. Elma, 494 SCRA 53, 2006"
+      ],
+      "topicIds": [
+        "topic-12"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "monroy-v-ca",
+      "title": "Monroy v. CA",
+      "syllabusCitations": [
+        "Monroy v. CA, 20 SCRA 620"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tayko-v-capistrano",
+      "title": "Tayko v. Capistrano",
+      "syllabusCitations": [
+        "Tayko v. Capistrano, 53 Phil 866"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "luna-v-rodriguez",
+      "title": "Luna v. Rodriguez",
+      "syllabusCitations": [
+        "Luna v. Rodriguez, G.R. No. L-12647, 1917"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tuanda-v-sandiganbayan",
+      "title": "Tuanda v. Sandiganbayan",
+      "syllabusCitations": [
+        "Tuanda v. Sandiganbayan, G.R. No. 110544, 1995"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "corpuz-v-ca",
+      "title": "Corpuz v. CA",
+      "syllabusCitations": [
+        "Corpuz v. CA, G.R. No. 123989, 1998"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "republic-v-sereno",
+      "title": "Republic v. Sereno",
+      "syllabusCitations": [
+        "Republic v. Sereno, G.R. No. 237428, 2018"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "general-manager-ppa-v-monserate",
+      "title": "General, Manager, PPA v. Monserate",
+      "syllabusCitations": [
+        "General, Manager, PPA v. Monserate, April 17, 2002"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "arroyo-v-court-of-appeals",
+      "title": "Arroyo v. Court of Appeals",
+      "syllabusCitations": [
+        "Arroyo v. Court of Appeals, G.R. No. 202860, 2019"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "torrosa-v-singson",
+      "title": "Torrosa v. Singson",
+      "syllabusCitations": [
+        "Torrosa v. Singson, 232 SCRA 553, 1994"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "bongbong-v-parado",
+      "title": "Bongbong v. Parado",
+      "syllabusCitations": [
+        "Bongbong v. Parado, 57 SCRA 623, 1974"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "mendoza-v-allas",
+      "title": "Mendoza v. Allas",
+      "syllabusCitations": [
+        "Mendoza v. Allas, 302 SCRA 623, 1999"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "mun-of-payao-v-mun-of-imelda",
+      "title": "Mun. of Payao v. Mun. of Imelda",
+      "syllabusCitations": [
+        "Mun. of Payao v. Mun. of Imelda, G.R. No. 243167, 2021"
+      ],
+      "topicIds": [
+        "topic-13"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "sarmiento-v-mison",
+      "title": "Sarmiento v. Mison",
+      "syllabusCitations": [
+        "Sarmiento v. Mison, 156 SCRA 549"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "luego-v-csc",
+      "title": "Luego v. CSC",
+      "syllabusCitations": [
+        "Luego v. CSC, 143 SCRA 327"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "matibag-v-benipayo",
+      "title": "Matibag v. Benipayo",
+      "syllabusCitations": [
+        "Matibag v. Benipayo, 380 SCRA 49"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "pimentel-v-ermita",
+      "title": "Pimentel v. Ermita",
+      "syllabusCitations": [
+        "Pimentel v. Ermita, G.R. No. 164978, 2005"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "bautista-v-salonga",
+      "title": "Bautista v. Salonga",
+      "syllabusCitations": [
+        "Bautista v. Salonga, G.R. No. 86439, 1989"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "velicaria-garafil-v-office-of-the-president",
+      "title": "Velicaria-Garafil v. Office of the President",
+      "syllabusCitations": [
+        "Velicaria-Garafil v. Office of the President, G.R. No. 203372, 2015"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "funa-v-chairman-coa",
+      "title": "Funa v. Chairman, COA",
+      "syllabusCitations": [
+        "Funa v. Chairman, COA, G.R. No. 191672, 2014"
+      ],
+      "topicIds": [
+        "topic-14"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "csc-v-dacoycoy",
+      "title": "CSC v. Dacoycoy",
+      "syllabusCitations": [
+        "CSC v. Dacoycoy, April 29, 1999"
+      ],
+      "topicIds": [
+        "topic-15"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "angchangco-jr-v-ombudsman",
+      "title": "Angchangco, Jr. v. Ombudsman",
+      "syllabusCitations": [
+        "Angchangco, Jr. v. Ombudsman, 268 SCRA 301"
+      ],
+      "topicIds": [
+        "topic-15"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "debulgado-v-csc",
+      "title": "Debulgado v. CSC",
+      "syllabusCitations": [
+        "Debulgado v. CSC, 237 SCRA 184, 1994"
+      ],
+      "topicIds": [
+        "topic-15"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "csc-v-cortes",
+      "title": "CSC v. Cortes",
+      "syllabusCitations": [
+        "CSC v. Cortes, G.R. No. 200103, 2014"
+      ],
+      "topicIds": [
+        "topic-15"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "gsis-v-kapisanan-ng-mga-manggagawa-sa-gsis",
+      "title": "GSIS v. Kapisanan ng mga Manggagawa sa GSIS",
+      "syllabusCitations": [
+        "GSIS v. Kapisanan ng mga Manggagawa sa GSIS, G.R. No. 170132, 2006"
+      ],
+      "topicIds": [
+        "topic-15"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "davao-city-water-district-v-aranjuez",
+      "title": "Davao City Water District v. Aranjuez",
+      "syllabusCitations": [
+        "Davao City Water District v. Aranjuez, G.R. No. 194192, 2015"
+      ],
+      "topicIds": [
+        "topic-15"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "estrada-v-desierto",
+      "title": "Estrada v. Desierto",
+      "syllabusCitations": [
+        "Estrada v. Desierto, March 2, 2001"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "shauf-v-ca",
+      "title": "Shauf v. CA",
+      "syllabusCitations": [
+        "Shauf v. CA, 191 SCRA 713"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tecson-v-sandiganbayan",
+      "title": "Tecson v. Sandiganbayan",
+      "syllabusCitations": [
+        "Tecson v. Sandiganbayan, 318 SCRA 80, 1999"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "matobato-sr-v-people",
+      "title": "Matobato, Sr. v. People",
+      "syllabusCitations": [
+        "Matobato, Sr. v. People, G.R. Nos. 229265 & 229624, 2022"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "larin-v-executive-secretary",
+      "title": "Larin v. Executive Secretary",
+      "syllabusCitations": [
+        "Larin v. Executive Secretary, G.R. No. 112745, 1997"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "duque-jr-v-brillantes-jr",
+      "title": "Duque, Jr. v. Brillantes, Jr.",
+      "syllabusCitations": [
+        "Duque, Jr. v. Brillantes, Jr., A.C. No. 9912, 2016"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "republic-v-desierto",
+      "title": "Republic v. Desierto",
+      "syllabusCitations": [
+        "Republic v. Desierto, G.R. No. 136506, 2001"
+      ],
+      "topicIds": [
+        "topic-16"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "cena-v-csc",
+      "title": "Cena v. CSC",
+      "syllabusCitations": [
+        "Cena v. CSC, 211 SCRA 179"
+      ],
+      "topicIds": [
+        "topic-17"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "gsis-v-csc",
+      "title": "GSIS v. CSC",
+      "syllabusCitations": [
+        "GSIS v. CSC, 245 SCRA 179"
+      ],
+      "topicIds": [
+        "topic-17"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "gonzales-iii-v-office-of-the-president",
+      "title": "Gonzales III v. Office of the President",
+      "syllabusCitations": [
+        "Gonzales III v. Office of the President, G.R. Nos. 196231 & 196232, 2014"
+      ],
+      "topicIds": [
+        "topic-18"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "villa-ignacio-v-sulit",
+      "title": "Villa-Ignacio v. Sulit",
+      "syllabusCitations": [
+        "Villa-Ignacio v. Sulit, G.R. No. 222469, 2022"
+      ],
+      "topicIds": [
+        "topic-18"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "santos-v-rasalan",
+      "title": "Santos v. Rasalan",
+      "syllabusCitations": [
+        "Santos v. Rasalan, G.R. No. 155749, 2007"
+      ],
+      "topicIds": [
+        "topic-18"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "office-of-the-ombudsman-v-court-of-appeals",
+      "title": "Office of the Ombudsman v. Court of Appeals",
+      "syllabusCitations": [
+        "Office of the Ombudsman v. Court of Appeals, G.R. No. 160675, 2006"
+      ],
+      "topicIds": [
+        "topic-18"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "morales-jr-v-carpio-morales",
+      "title": "Morales, Jr. v. Carpio-Morales",
+      "syllabusCitations": [
+        "Morales, Jr. v. Carpio-Morales, G.R. No. 208086, 2016"
+      ],
+      "topicIds": [
+        "topic-18"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "francisco-jr-v-house-of-representatives",
+      "title": "Francisco, Jr. v. House of Representatives",
+      "syllabusCitations": [
+        "Francisco, Jr. v. House of Representatives, G.R. No. 160261, 2003"
+      ],
+      "topicIds": [
+        "topic-18"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "campol-v-balao-as",
+      "title": "Campol v. Balao-as",
+      "syllabusCitations": [
+        "Campol v. Balao-as, G.R. No. 197634, 2016"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "npc-dama-v-npc",
+      "title": "NPC DAMA v. NPC",
+      "syllabusCitations": [
+        "NPC DAMA v. NPC, G.R. No. 156208, 2017"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "melchor-v-gironella",
+      "title": "Melchor v. Gironella",
+      "syllabusCitations": [
+        "Melchor v. Gironella, G.R. No. 151138, 2005"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "ombudsman-v-andutan-jr",
+      "title": "Ombudsman v. Andutan, Jr.",
+      "syllabusCitations": [
+        "Ombudsman v. Andutan, Jr., G.R. No. 164679, 2011"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "villena-lopez-v-lopez",
+      "title": "Villena-Lopez v. Lopez",
+      "syllabusCitations": [
+        "Villena-Lopez v. Lopez, A.M. No. P-15-3411, 2020"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "csc-v-juen",
+      "title": "CSC v. Juen",
+      "syllabusCitations": [
+        "CSC v. Juen, G.R. No. 200577, 2016"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "flores-concepcion-v-castaneda",
+      "title": "Flores-Concepcion v. Castañeda",
+      "syllabusCitations": [
+        "Flores-Concepcion v. Castañeda, A.M. No. RTJ-15-2438, Resolution, 2020"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "gloria-v-ca",
+      "title": "Gloria v. CA",
+      "syllabusCitations": [
+        "Gloria v. CA, G.R. No. 131012, 1999"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "csc-v-cruz",
+      "title": "CSC v. Cruz",
+      "syllabusCitations": [
+        "CSC v. Cruz, G.R. No. 187858, 2011"
+      ],
+      "topicIds": [
+        "topic-19"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "carpio-morales-v-ca",
+      "title": "Carpio-Morales v. CA",
+      "syllabusCitations": [
+        "Carpio-Morales v. CA, November 10, 2015"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "dario-v-mison",
+      "title": "Dario v. Mison",
+      "syllabusCitations": [
+        "Dario v. Mison, 176 SCRA 84"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "civil-service-commission-v-cutao",
+      "title": "Civil Service Commission v. Cutao",
+      "syllabusCitations": [
+        "sCivil Service Commission v. Cutao, G.R. No. 225151, 2020"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "de-rama-v-coa",
+      "title": "De Rama v. COA",
+      "syllabusCitations": [
+        "De Rama v. COA, G.R. No. 131135, 2001"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "rodrigo-v-sandiganbayan",
+      "title": "Rodrigo v. Sandiganbayan",
+      "syllabusCitations": [
+        "Rodrigo v. Sandiganbayan, G.R. No. 125498, 1999"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "defensor-santiago-v-sandiganbayan",
+      "title": "Defensor-Santiago v. Sandiganbayan",
+      "syllabusCitations": [
+        "Defensor-Santiago v. Sandiganbayan, G.R. No. 128055, 2001"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "de-lima-v-guerrero",
+      "title": "De Lima v. Guerrero",
+      "syllabusCitations": [
+        "De Lima v. Guerrero, G.R. No. 229781, 2017"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "tsunami-management-corp-v-ombudsman",
+      "title": "Tsunami Management Corp. v. Ombudsman",
+      "syllabusCitations": [
+        "Tsunami Management Corp. v. Ombudsman, G.R. No. 232712, 2021"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "yatco-v-office-of-the-deputy-ombudsman-for-luzon",
+      "title": "Yatco v. Office of the Deputy Ombudsman for Luzon",
+      "syllabusCitations": [
+        "Yatco v. Office of the Deputy Ombudsman for Luzon, G.R. No. 244775, 2020"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    },
+    {
+      "id": "espina-v-soriano",
+      "title": "Espina v. Soriano",
+      "syllabusCitations": [
+        "Espina v. Soriano, G.R. No. 208436, 2023"
+      ],
+      "topicIds": [
+        "topic-20"
+      ],
+      "status": "pending",
+      "sourceUrl": null
+    }
+  ],
+  "references": [
+    {
+      "number": 1,
+      "paragraph": 42,
+      "citation": "Aratuc v. COMELEC, 88 SCRA 251",
+      "caseId": "aratuc-v-comelec",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 2,
+      "paragraph": 43,
+      "citation": "Maceda v. ERB, 192 SCRA 363",
+      "caseId": "maceda-v-erb",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 3,
+      "paragraph": 44,
+      "citation": "US v. Dorr, 2 Phil 332",
+      "caseId": "us-v-dorr",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 4,
+      "paragraph": 45,
+      "citation": "Poindexter v. Greenhow, 114 US 270",
+      "caseId": "poindexter-v-greenhow",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 5,
+      "paragraph": 46,
+      "citation": "Angara v. Electoral Commission, G.R. No. L-45081, 1936",
+      "caseId": "angara-v-electoral-commission",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 6,
+      "paragraph": 47,
+      "citation": "Pangasinan Transportation v. PSC, G.R. No. 47065, 1940",
+      "caseId": "pangasinan-transportation-v-psc",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 7,
+      "paragraph": 48,
+      "citation": "In Re: Rodolfo Manzano, A.M. No. 88-7-1861-RTC, 1988",
+      "caseId": "in-re-rodolfo-manzano",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 8,
+      "paragraph": 49,
+      "citation": "Solid Homes v. Payawal, G.R. No. 84811, 1989",
+      "caseId": "solid-homes-v-payawal",
+      "topicId": "topic-1",
+      "section": null
+    },
+    {
+      "number": 9,
+      "paragraph": 52,
+      "citation": "Eugenio v. CSC, 243 SCRA 196",
+      "caseId": "eugenio-v-csc",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 10,
+      "paragraph": 53,
+      "citation": "MIAA v. CA, July 20, 2006",
+      "caseId": "miaa-v-ca",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 11,
+      "paragraph": 54,
+      "citation": "Buklod ng Kawaning EIIB v. Zamora, July 10, 2001",
+      "caseId": "buklod-ng-kawaning-eiib-v-zamora",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 12,
+      "paragraph": 55,
+      "citation": "Biraogo v. Philippine Truth Commission of 2010, G.R. Nos. 192935 & 193036, 2010",
+      "caseId": "biraogo-v-philippine-truth-commission-of-2010",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 13,
+      "paragraph": 56,
+      "citation": "Pichay, Jr. v. Office of the Deputy Executive Secretary, G.R. No. 196425, 2012",
+      "caseId": "pichay-jr-v-office-of-the-deputy-executive-secretary",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 14,
+      "paragraph": 57,
+      "citation": "Republic v. Court of Appeals, G.R. No. 90482, 1991",
+      "caseId": "republic-v-court-of-appeals",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 15,
+      "paragraph": 58,
+      "citation": "Atienza v. COMELEC, G.R. No. 188920, 2010",
+      "caseId": "atienza-v-comelec",
+      "topicId": "topic-2",
+      "section": null
+    },
+    {
+      "number": 16,
+      "paragraph": 61,
+      "citation": "Mondano v. Silvosa, G.R. No. L-7708, 1955",
+      "caseId": "mondano-v-silvosa",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 17,
+      "paragraph": 62,
+      "citation": "Philippine Gamefowl Commission v. IAC, G.R. Nos. 72969-70, 1986",
+      "caseId": "philippine-gamefowl-commission-v-iac",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 18,
+      "paragraph": 63,
+      "citation": "Carpio v. Executive Secretary, February 14, 1992",
+      "caseId": "carpio-v-executive-secretary",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 19,
+      "paragraph": 64,
+      "citation": "Moran, Jr. v. Office of the President, G.R. No. 192957, 2014",
+      "caseId": "moran-jr-v-office-of-the-president",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 20,
+      "paragraph": 65,
+      "citation": "PSALM v. CIR, G.R. No. 198146, 2017",
+      "caseId": "psalm-v-cir",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 21,
+      "paragraph": 66,
+      "citation": "BOCEA v. Biazon, G.R. No. 205836, 2022",
+      "caseId": "bocea-v-biazon",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 22,
+      "paragraph": 67,
+      "citation": "NHA v. Commission on Audit, G.R. Nos. 239936 & 252584, 2022",
+      "caseId": "nha-v-commission-on-audit",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 23,
+      "paragraph": 68,
+      "citation": "Manalang-Demigillo v. TIDCORP, G.R. Nos. 168613 & 185571, 2013",
+      "caseId": "manalang-demigillo-v-tidcorp",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 24,
+      "paragraph": 69,
+      "citation": "Sabio v. Sandiganbayan, G.R. Nos. 233853-54, 2019",
+      "caseId": "sabio-v-sandiganbayan",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 25,
+      "paragraph": 70,
+      "citation": "Mendoza v. Pilipinas Shell, G.R. No. 209216, 2023",
+      "caseId": "mendoza-v-pilipinas-shell",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 26,
+      "paragraph": 71,
+      "citation": "Ople v. Torres, G.R. No. 127685, 1998",
+      "caseId": "ople-v-torres",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 27,
+      "paragraph": 72,
+      "citation": "Macalintal v. COMELEC, G.R. No. 157013, 2003",
+      "caseId": "macalintal-v-comelec",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 28,
+      "paragraph": 73,
+      "citation": "Abakada Guro Party List v. Purisima, G.R. No. 166715, 2008",
+      "caseId": "abakada-guro-party-list-v-purisima",
+      "topicId": "topic-2",
+      "section": "A.  Control of Administrative Action"
+    },
+    {
+      "number": 29,
+      "paragraph": 76,
+      "citation": "Smart Communications v. NTC, 408 SCRA 678",
+      "caseId": "smart-communications-v-ntc",
+      "topicId": "topic-3",
+      "section": null
+    },
+    {
+      "number": 30,
+      "paragraph": 77,
+      "citation": "CIR v. CA, 261 SCRA 236",
+      "caseId": "cir-v-ca",
+      "topicId": "topic-3",
+      "section": null
+    },
+    {
+      "number": 31,
+      "paragraph": 78,
+      "citation": "Soriano v. Laguardia, G.R. No. 164785, 2009",
+      "caseId": "soriano-v-laguardia",
+      "topicId": "topic-3",
+      "section": null
+    },
+    {
+      "number": 32,
+      "paragraph": 79,
+      "citation": "LLDA v. CA, G.R. Nos. 120865-71, 1995",
+      "caseId": "llda-v-ca",
+      "topicId": "topic-3",
+      "section": null
+    },
+    {
+      "number": 33,
+      "paragraph": 80,
+      "citation": "Matienzo v. Abellera, G.R. No. L-45839, 1988",
+      "caseId": "matienzo-v-abellera",
+      "topicId": "topic-3",
+      "section": null
+    },
+    {
+      "number": 34,
+      "paragraph": 83,
+      "citation": "Ynot v. IAC, 148 SCRA 659",
+      "caseId": "ynot-v-iac",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 35,
+      "paragraph": 84,
+      "citation": "Pelaez v. Auditor General, 15 SCRA 569",
+      "caseId": "pelaez-v-auditor-general",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 36,
+      "paragraph": 85,
+      "citation": "Abakada Guro Party List v. Ermita, 469 SCRA 1",
+      "caseId": "abakada-guro-party-list-v-ermita",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 37,
+      "paragraph": 86,
+      "citation": "US v. Ang Tang Ho, 43 Phil 1",
+      "caseId": "us-v-ang-tang-ho",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 38,
+      "paragraph": 87,
+      "citation": "Eastern Shipping Lines v. POEA, 166 SCRA 533, 1988",
+      "caseId": "eastern-shipping-lines-v-poea",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 39,
+      "paragraph": 88,
+      "citation": "KMU v. Garcia, G.R. No. 115381, 1994",
+      "caseId": "kmu-v-garcia",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 40,
+      "paragraph": 89,
+      "citation": "People v. Maceren, G.R. No. L-32166, 1977",
+      "caseId": "people-v-maceren",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 41,
+      "paragraph": 90,
+      "citation": "SEC v. 1Accountants Party-List, Inc., G.R. No. 246027, 2022",
+      "caseId": "sec-v-1accountants-party-list-inc",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 42,
+      "paragraph": 91,
+      "citation": "BOC Employees v. Teves, G.R. No. 181704, 2011",
+      "caseId": "boc-employees-v-teves",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 43,
+      "paragraph": 92,
+      "citation": "Chiongbian v. Orbos, G.R. Nos. 96754 & 96673, 1995",
+      "caseId": "chiongbian-v-orbos",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 44,
+      "paragraph": 93,
+      "citation": "Ynot v. IAC, supra (see above)",
+      "caseId": "ynot-v-iac",
+      "topicId": "topic-3",
+      "section": "A.  Quasi-Legislative Power"
+    },
+    {
+      "number": 45,
+      "paragraph": 96,
+      "citation": "SEC v. Universal Rightfield Property Holdings, G.R. No. 181381, 2015",
+      "caseId": "sec-v-universal-rightfield-property-holdings",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 46,
+      "paragraph": 97,
+      "citation": "PAGCOR v. Fontana Development Corp., June 29, 2010",
+      "caseId": "pagcor-v-fontana-development-corp",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 47,
+      "paragraph": 98,
+      "citation": "Santiago v. Bautista, G.R. No. L-25024, 1970",
+      "caseId": "santiago-v-bautista",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 48,
+      "paragraph": 99,
+      "citation": "Evangelista v. Jarencio, G.R. No. L-29274, 1975",
+      "caseId": "evangelista-v-jarencio",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 49,
+      "paragraph": 100,
+      "citation": "Heirs of Zoleta v. Land Bank of the Philippines, G.R. No. 205128, 2017",
+      "caseId": "heirs-of-zoleta-v-land-bank-of-the-philippines",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 50,
+      "paragraph": 101,
+      "citation": "Board of Commissioners of the BID v. Yuan Wenle, G.R. No. 242957, 2023",
+      "caseId": "board-of-commissioners-of-the-bid-v-yuan-wenle",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 51,
+      "paragraph": 102,
+      "citation": "People v. O'Cochlain, G.R. No. 229071, 2018",
+      "caseId": "people-v-o-cochlain",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 52,
+      "paragraph": 103,
+      "citation": "Venus Commercial v. FDA, G.R. No. 240764, 2021",
+      "caseId": "venus-commercial-v-fda",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 53,
+      "paragraph": 104,
+      "citation": "Qua Chee Gan v. Deportation Board, G.R. No. L-10280, 1963",
+      "caseId": "qua-chee-gan-v-deportation-board",
+      "topicId": "topic-3",
+      "section": "B.  Quasi-Judicial Power"
+    },
+    {
+      "number": 54,
+      "paragraph": 106,
+      "citation": "Cariño v. CHR, G.R. No. 96681, 1991",
+      "caseId": "carino-v-chr",
+      "topicId": "topic-3",
+      "section": "C.  Fact-Finding and Investigatory"
+    },
+    {
+      "number": 55,
+      "paragraph": 107,
+      "citation": "Quisumbing v. Rosales, G.R. No. 209283, 2015",
+      "caseId": "quisumbing-v-rosales",
+      "topicId": "topic-3",
+      "section": "C.  Fact-Finding and Investigatory"
+    },
+    {
+      "number": 56,
+      "paragraph": 109,
+      "citation": "New Vision Satellite Network, Inc. v. Cagayan, G.R. No. 248840, 2021",
+      "caseId": "new-vision-satellite-network-inc-v-cagayan",
+      "topicId": "topic-3",
+      "section": "D.  Licensing"
+    },
+    {
+      "number": 57,
+      "paragraph": 111,
+      "citation": "Philcomsat v. Alcuaz, G.R. No. 84818, 1989",
+      "caseId": "philcomsat-v-alcuaz",
+      "topicId": "topic-3",
+      "section": "E.  Rate-Fixing"
+    },
+    {
+      "number": 58,
+      "paragraph": 115,
+      "citation": "Commissioner of Customs v. Hypermix Feeds Corp., G.R. No. 179579, 2012",
+      "caseId": "commissioner-of-customs-v-hypermix-feeds-corp",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 59,
+      "paragraph": 116,
+      "citation": "Review Center Association of the Phils. v. Ermita, G.R. No. 180046, 2009",
+      "caseId": "review-center-association-of-the-phils-v-ermita",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 60,
+      "paragraph": 117,
+      "citation": "Lokin, Jr. v. COMELEC, G.R. Nos. 179431-32 & 180443, 2010",
+      "caseId": "lokin-jr-v-comelec",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 61,
+      "paragraph": 118,
+      "citation": "Department of Health v. Philip Morris, G.R. No. 202943, 2015",
+      "caseId": "department-of-health-v-philip-morris",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 62,
+      "paragraph": 119,
+      "citation": "Genuino v. De Lima, G.R. Nos. 197930, 199034 & 199046, 2018",
+      "caseId": "genuino-v-de-lima",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 63,
+      "paragraph": 120,
+      "citation": "Soliman v. Santos, G.R. Nos. 202417 & 203245, 2023",
+      "caseId": "soliman-v-santos",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 64,
+      "paragraph": 121,
+      "citation": "Bartolome v. Social Security System, G.R. No. 192531, 2014",
+      "caseId": "bartolome-v-social-security-system",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 65,
+      "paragraph": 122,
+      "citation": "Perez v. LPG Refillers Association of the Phils., G.R. No. 159149, 2006",
+      "caseId": "perez-v-lpg-refillers-association-of-the-phils",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 66,
+      "paragraph": 123,
+      "citation": "Board of Trustees of the GSIS v. Velasco, G.R. No. 170463, 2011",
+      "caseId": "board-of-trustees-of-the-gsis-v-velasco",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 67,
+      "paragraph": 124,
+      "citation": "PSE v. Secretary of Finance, G.R. No. 213860, 2022",
+      "caseId": "pse-v-secretary-of-finance",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 68,
+      "paragraph": 125,
+      "citation": "Tañada v. Tuvera, G.R. No. L-63915, Resolution, 1986",
+      "caseId": "tanada-v-tuvera",
+      "topicId": "topic-4",
+      "section": "A.  For Rule-Making"
+    },
+    {
+      "number": 69,
+      "paragraph": 127,
+      "citation": "Subido v. Court of Appeals, G.R. No. 216914, 2016",
+      "caseId": "subido-v-court-of-appeals",
+      "topicId": "topic-4",
+      "section": "B.  For Adjudication"
+    },
+    {
+      "number": 70,
+      "paragraph": 128,
+      "citation": "Velasquez, Jr. v. Lisondra Land, Inc., G.R. No. 231290, 2020",
+      "caseId": "velasquez-jr-v-lisondra-land-inc",
+      "topicId": "topic-4",
+      "section": "B.  For Adjudication"
+    },
+    {
+      "number": 71,
+      "paragraph": 130,
+      "citation": "Ang Tibay v. CIR, G.R. No. 46496, 1940",
+      "caseId": "ang-tibay-v-cir",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 72,
+      "paragraph": 131,
+      "citation": "Air Manila, Inc. v. Balatbat, G.R. No. L-29064, 1971",
+      "caseId": "air-manila-inc-v-balatbat",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 73,
+      "paragraph": 132,
+      "citation": "Vivo v. PAGCOR, G.R. No. 187854, 2013",
+      "caseId": "vivo-v-pagcor",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 74,
+      "paragraph": 133,
+      "citation": "Go v. Colegio de San Juan de Letran, G.R. No. 169391, 2012",
+      "caseId": "go-v-colegio-de-san-juan-de-letran",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 75,
+      "paragraph": 134,
+      "citation": "Department of Trade and Industry v. Enriquez, G.R. No. 225301, 2020",
+      "caseId": "department-of-trade-and-industry-v-enriquez",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 76,
+      "paragraph": 135,
+      "citation": "Acuzar v. Jorolan, G.R. No. 177878, 2010",
+      "caseId": "acuzar-v-jorolan",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 77,
+      "paragraph": 136,
+      "citation": "Equitable Banking Corp. v. NLRC, G.R. No. 102467, 1997",
+      "caseId": "equitable-banking-corp-v-nlrc",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 78,
+      "paragraph": 137,
+      "citation": "Lumiqued v. Exevea, G.R. No. 117565, 1997",
+      "caseId": "lumiqued-v-exevea",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 79,
+      "paragraph": 138,
+      "citation": "Office of the Ombudsman v. Reyes, G.R. No. 170512, 2011",
+      "caseId": "office-of-the-ombudsman-v-reyes",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 80,
+      "paragraph": 139,
+      "citation": "American Tobacco Co. v. Director of Patents, G.R. No. L-26803, 1975",
+      "caseId": "american-tobacco-co-v-director-of-patents",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 81,
+      "paragraph": 140,
+      "citation": "Magcamit v. Internal Affairs Service, G.R. No. 198140, 2016",
+      "caseId": "magcamit-v-internal-affairs-service",
+      "topicId": "topic-5",
+      "section": null
+    },
+    {
+      "number": 82,
+      "paragraph": 142,
+      "citation": "Rivera v. Civil Service Commission and Land Bank of the Philippines, G.R. No. 115147, 1995",
+      "caseId": "rivera-v-civil-service-commission-and-land-bank-of-the-philippines",
+      "topicId": "topic-6",
+      "section": null
+    },
+    {
+      "number": 83,
+      "paragraph": 143,
+      "citation": "Heirs of Derla v. Heirs of Hipolito, G.R. No. 157717, 2011",
+      "caseId": "heirs-of-derla-v-heirs-of-hipolito",
+      "topicId": "topic-6",
+      "section": null
+    },
+    {
+      "number": 84,
+      "paragraph": 146,
+      "citation": "Eslao v. COA, 236 SCRA 161",
+      "caseId": "eslao-v-coa",
+      "topicId": "topic-7",
+      "section": "A.  Kinds of Administrative Regulations (Interpretative; Legislative)"
+    },
+    {
+      "number": 85,
+      "paragraph": 147,
+      "citation": "Peralta v. CSC, 211 SCRA 425",
+      "caseId": "peralta-v-csc",
+      "topicId": "topic-7",
+      "section": "A.  Kinds of Administrative Regulations (Interpretative; Legislative)"
+    },
+    {
+      "number": 86,
+      "paragraph": 148,
+      "citation": "La Bugal-B'laan Tribal Association v. Ramos, 421 SCRA 148",
+      "caseId": "la-bugal-b-laan-tribal-association-v-ramos",
+      "topicId": "topic-7",
+      "section": "A.  Kinds of Administrative Regulations (Interpretative; Legislative)"
+    },
+    {
+      "number": 87,
+      "paragraph": 149,
+      "citation": "Victorias Milling Co., Inc. v. SSS, G.R. No. L-16704, 1962",
+      "caseId": "victorias-milling-co-inc-v-sss",
+      "topicId": "topic-7",
+      "section": "A.  Kinds of Administrative Regulations (Interpretative; Legislative)"
+    },
+    {
+      "number": 88,
+      "paragraph": 151,
+      "citation": "Executive Secretary v. Southwing Heavy Industries, March 1, 2006",
+      "caseId": "executive-secretary-v-southwing-heavy-industries",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 89,
+      "paragraph": 152,
+      "citation": "Dagan v. Philippine Racing Commission, February 12, 2009",
+      "caseId": "dagan-v-philippine-racing-commission",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 90,
+      "paragraph": 153,
+      "citation": "Republic v. Drugmaker's Laboratories, Inc., G.R. No. 190837, 2014",
+      "caseId": "republic-v-drugmaker-s-laboratories-inc",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 91,
+      "paragraph": 154,
+      "citation": "ASTEC v. ERC, G.R. No. 192117, 2012",
+      "caseId": "astec-v-erc",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 92,
+      "paragraph": 155,
+      "citation": "Republic v. Maria Basa Express Jeepney Operators and Drivers Association, Inc., G.R. No. 206486, 2022",
+      "caseId": "republic-v-maria-basa-express-jeepney-operators-and-drivers-association-inc",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 93,
+      "paragraph": 156,
+      "citation": "Sobrejuanite-Flores v. Pilando, Jr., G.R. No. 251816, 2021",
+      "caseId": "sobrejuanite-flores-v-pilando-jr",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 94,
+      "paragraph": 157,
+      "citation": "Province of Pampanga v. Romulo, G.R. No. 195987, 2021",
+      "caseId": "province-of-pampanga-v-romulo",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 95,
+      "paragraph": 158,
+      "citation": "GSIS v. Daymiel, G.R. No. 218097, 2019",
+      "caseId": "gsis-v-daymiel",
+      "topicId": "topic-7",
+      "section": "B.  Requisites for Validity"
+    },
+    {
+      "number": 96,
+      "paragraph": 160,
+      "citation": "Central Bank Employees Association v. BSP, 307 SCRA 443",
+      "caseId": "central-bank-employees-association-v-bsp",
+      "topicId": "topic-7",
+      "section": "1.  Authorized Promulgation"
+    },
+    {
+      "number": 97,
+      "paragraph": 161,
+      "citation": "Tayug Rural Bank v. Central Bank, 146 SCRA 120",
+      "caseId": "tayug-rural-bank-v-central-bank",
+      "topicId": "topic-7",
+      "section": "1.  Authorized Promulgation"
+    },
+    {
+      "number": 98,
+      "paragraph": 163,
+      "citation": "Boie-Takeda Chemicals v. De la Serna, 228 SCRA 329",
+      "caseId": "boie-takeda-chemicals-v-de-la-serna",
+      "topicId": "topic-7",
+      "section": "2.  Within the Scope of Authority"
+    },
+    {
+      "number": 99,
+      "paragraph": 164,
+      "citation": "CIR v. Central Luzon Drug Corp., 456 SCRA 414",
+      "caseId": "cir-v-central-luzon-drug-corp",
+      "topicId": "topic-7",
+      "section": "2.  Within the Scope of Authority"
+    },
+    {
+      "number": 100,
+      "paragraph": 165,
+      "citation": "Tañada v. Angara, 272 SCRA 18",
+      "caseId": "tanada-v-angara",
+      "topicId": "topic-7",
+      "section": "2.  Within the Scope of Authority"
+    },
+    {
+      "number": 101,
+      "paragraph": 167,
+      "citation": "Tañada v. Tuvera, 146 SCRA 446",
+      "caseId": "tanada-v-tuvera",
+      "topicId": "topic-7",
+      "section": "3.  Promulgated in Accordance with Prescribed Procedure"
+    },
+    {
+      "number": 102,
+      "paragraph": 168,
+      "citation": "Corona v. United Harbor Pilots Association, December 12, 1997",
+      "caseId": "corona-v-united-harbor-pilots-association",
+      "topicId": "topic-7",
+      "section": "3.  Promulgated in Accordance with Prescribed Procedure"
+    },
+    {
+      "number": 103,
+      "paragraph": 172,
+      "citation": "CSC v. Ledesma, 471 SCRA 589",
+      "caseId": "csc-v-ledesma",
+      "topicId": "topic-8",
+      "section": null
+    },
+    {
+      "number": 104,
+      "paragraph": 173,
+      "citation": "Estrada v. Ombudsman, January 21, 2015",
+      "caseId": "estrada-v-ombudsman",
+      "topicId": "topic-8",
+      "section": null
+    },
+    {
+      "number": 105,
+      "paragraph": 174,
+      "citation": "Secretary of Justice v. Lantion, 322 SCRA 160",
+      "caseId": "secretary-of-justice-v-lantion",
+      "topicId": "topic-8",
+      "section": null
+    },
+    {
+      "number": 106,
+      "paragraph": 175,
+      "citation": "Garcia v. Drilon, June 25, 2013",
+      "caseId": "garcia-v-drilon",
+      "topicId": "topic-8",
+      "section": null
+    },
+    {
+      "number": 107,
+      "paragraph": 178,
+      "citation": "Chung Fu Industries v. CA, 206 SCRA 545",
+      "caseId": "chung-fu-industries-v-ca",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 108,
+      "paragraph": 179,
+      "citation": "Paat v. CA, 266 SCRA 167",
+      "caseId": "paat-v-ca",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 109,
+      "paragraph": 180,
+      "citation": "Valmonte v. Belmonte, Jr., 170 SCRA 256",
+      "caseId": "valmonte-v-belmonte-jr",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 110,
+      "paragraph": 181,
+      "citation": "Globe Telecom v. NTC, 435 SCRA 110",
+      "caseId": "globe-telecom-v-ntc",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 111,
+      "paragraph": 182,
+      "citation": "Land Bank of the Philippines v. CA, 318 SCRA 144",
+      "caseId": "land-bank-of-the-philippines-v-ca",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 112,
+      "paragraph": 183,
+      "citation": "Remolona v. CSC, G.R. No. 137473, 2001",
+      "caseId": "remolona-v-csc",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 113,
+      "paragraph": 184,
+      "citation": "Department of Finance v. Ventura, G.R. Nos. 230260 & 231831, 2023",
+      "caseId": "department-of-finance-v-ventura",
+      "topicId": "topic-9",
+      "section": null
+    },
+    {
+      "number": 114,
+      "paragraph": 186,
+      "citation": "GMA Network Inc. v. ABS-CBN Broadcasting Corp., G.R. No. 160703, 2005",
+      "caseId": "gma-network-inc-v-abs-cbn-broadcasting-corp",
+      "topicId": "topic-9",
+      "section": "A.  Doctrine of Primary Jurisdiction"
+    },
+    {
+      "number": 115,
+      "paragraph": 187,
+      "citation": "Republic v. Lacap, G.R. No. 158253, 2007",
+      "caseId": "republic-v-lacap",
+      "topicId": "topic-9",
+      "section": "A.  Doctrine of Primary Jurisdiction"
+    },
+    {
+      "number": 116,
+      "paragraph": 188,
+      "citation": "Shopping Center Management Corp. v. Galutera, G.R. No. E-02121, 2026",
+      "caseId": "shopping-center-management-corp-v-galutera",
+      "topicId": "topic-9",
+      "section": "A.  Doctrine of Primary Jurisdiction"
+    },
+    {
+      "number": 117,
+      "paragraph": 190,
+      "citation": "Alliance of Non-Life Insurance Workers v. Mendoza, G.R. No. 206159, 2020",
+      "caseId": "alliance-of-non-life-insurance-workers-v-mendoza",
+      "topicId": "topic-9",
+      "section": "B.  Doctrine of Exhaustion of Administrative Remedies"
+    },
+    {
+      "number": 118,
+      "paragraph": 191,
+      "citation": "Regino v. Pangasinan Colleges of Science and Technology, G.R. No. 156109, 2004",
+      "caseId": "regino-v-pangasinan-colleges-of-science-and-technology",
+      "topicId": "topic-9",
+      "section": "B.  Doctrine of Exhaustion of Administrative Remedies"
+    },
+    {
+      "number": 119,
+      "paragraph": 192,
+      "citation": "Maglalang v. PAGCOR, G.R. No. 190566, 2013",
+      "caseId": "maglalang-v-pagcor",
+      "topicId": "topic-9",
+      "section": "B.  Doctrine of Exhaustion of Administrative Remedies"
+    },
+    {
+      "number": 120,
+      "paragraph": 193,
+      "citation": "Legaspi v. COMELEC, G.R. No. 264661, 2024",
+      "caseId": "legaspi-v-comelec",
+      "topicId": "topic-9",
+      "section": "B.  Doctrine of Exhaustion of Administrative Remedies"
+    },
+    {
+      "number": 121,
+      "paragraph": 195,
+      "citation": "Civil Service Commission v. Moralde, G.R. No. 211077, 2018",
+      "caseId": "civil-service-commission-v-moralde",
+      "topicId": "topic-9",
+      "section": "C.  Doctrine of Finality of Administrative Action"
+    },
+    {
+      "number": 122,
+      "paragraph": 196,
+      "citation": "Trillanes v. Medialdea, G.R. No. 241494, 2024",
+      "caseId": "trillanes-v-medialdea",
+      "topicId": "topic-9",
+      "section": "C.  Doctrine of Finality of Administrative Action"
+    },
+    {
+      "number": 123,
+      "paragraph": 198,
+      "citation": "Clavano v. HLURB, G.R. No. 143781, 2002",
+      "caseId": "clavano-v-hlurb",
+      "topicId": "topic-10",
+      "section": null
+    },
+    {
+      "number": 124,
+      "paragraph": 204,
+      "citation": "Laurel v. Desierto, 381 SCRA 48, 2002",
+      "caseId": "laurel-v-desierto",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 125,
+      "paragraph": 205,
+      "citation": "Azarcon v. Sandiganbayan, 268 SCRA 747",
+      "caseId": "azarcon-v-sandiganbayan",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 126,
+      "paragraph": 206,
+      "citation": "Fernandez v. Sto. Tomas, G.R. No. 116418, 1995",
+      "caseId": "fernandez-v-sto-tomas",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 127,
+      "paragraph": 207,
+      "citation": "Secretary of DOTC v. Mabalot, G.R. No. 138200, 2002",
+      "caseId": "secretary-of-dotc-v-mabalot",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 128,
+      "paragraph": 208,
+      "citation": "Javier v. Sandiganbayan, G.R. Nos. 147026-27, 2009",
+      "caseId": "javier-v-sandiganbayan",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 129,
+      "paragraph": 209,
+      "citation": "Fariñas v. Executive Secretary, G.R. No. 147387, 2003",
+      "caseId": "farinas-v-executive-secretary",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 130,
+      "paragraph": 210,
+      "citation": "Aguila v. Genato, G.R. No. L-55151, 1981",
+      "caseId": "aguila-v-genato",
+      "topicId": "topic-11",
+      "section": null
+    },
+    {
+      "number": 131,
+      "paragraph": 213,
+      "citation": "Frivaldo v. COMELEC, 257 SCRA 727",
+      "caseId": "frivaldo-v-comelec",
+      "topicId": "topic-12",
+      "section": null
+    },
+    {
+      "number": 132,
+      "paragraph": 214,
+      "citation": "Civil Liberties Union v. Executive Secretary, 194 SCRA 317",
+      "caseId": "civil-liberties-union-v-executive-secretary",
+      "topicId": "topic-12",
+      "section": null
+    },
+    {
+      "number": 133,
+      "paragraph": 215,
+      "citation": "Flores v. Drilon, G.R. No. 104732, 1993",
+      "caseId": "flores-v-drilon",
+      "topicId": "topic-12",
+      "section": null
+    },
+    {
+      "number": 134,
+      "paragraph": 216,
+      "citation": "Macalino v. COA, G.R. No. 253199, 2023",
+      "caseId": "macalino-v-coa",
+      "topicId": "topic-12",
+      "section": null
+    },
+    {
+      "number": 135,
+      "paragraph": 217,
+      "citation": "Public Interest Center v. Elma, 494 SCRA 53, 2006",
+      "caseId": "public-interest-center-v-elma",
+      "topicId": "topic-12",
+      "section": null
+    },
+    {
+      "number": 136,
+      "paragraph": 220,
+      "citation": "Monroy v. CA, 20 SCRA 620",
+      "caseId": "monroy-v-ca",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 137,
+      "paragraph": 221,
+      "citation": "Tayko v. Capistrano, 53 Phil 866",
+      "caseId": "tayko-v-capistrano",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 138,
+      "paragraph": 222,
+      "citation": "Luna v. Rodriguez, G.R. No. L-12647, 1917",
+      "caseId": "luna-v-rodriguez",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 139,
+      "paragraph": 223,
+      "citation": "Tuanda v. Sandiganbayan, G.R. No. 110544, 1995",
+      "caseId": "tuanda-v-sandiganbayan",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 140,
+      "paragraph": 224,
+      "citation": "Corpuz v. CA, G.R. No. 123989, 1998",
+      "caseId": "corpuz-v-ca",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 141,
+      "paragraph": 225,
+      "citation": "Republic v. Sereno, G.R. No. 237428, 2018",
+      "caseId": "republic-v-sereno",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 142,
+      "paragraph": 226,
+      "citation": "General, Manager, PPA v. Monserate, April 17, 2002",
+      "caseId": "general-manager-ppa-v-monserate",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 143,
+      "paragraph": 227,
+      "citation": "Arroyo v. Court of Appeals, G.R. No. 202860, 2019",
+      "caseId": "arroyo-v-court-of-appeals",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 144,
+      "paragraph": 228,
+      "citation": "Torrosa v. Singson, 232 SCRA 553, 1994",
+      "caseId": "torrosa-v-singson",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 145,
+      "paragraph": 229,
+      "citation": "Bongbong v. Parado, 57 SCRA 623, 1974",
+      "caseId": "bongbong-v-parado",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 146,
+      "paragraph": 230,
+      "citation": "Mendoza v. Allas, 302 SCRA 623, 1999",
+      "caseId": "mendoza-v-allas",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 147,
+      "paragraph": 231,
+      "citation": "Mun. of Payao v. Mun. of Imelda, G.R. No. 243167, 2021",
+      "caseId": "mun-of-payao-v-mun-of-imelda",
+      "topicId": "topic-13",
+      "section": null
+    },
+    {
+      "number": 148,
+      "paragraph": 236,
+      "citation": "Sarmiento v. Mison, 156 SCRA 549",
+      "caseId": "sarmiento-v-mison",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 149,
+      "paragraph": 237,
+      "citation": "Luego v. CSC, 143 SCRA 327",
+      "caseId": "luego-v-csc",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 150,
+      "paragraph": 238,
+      "citation": "Matibag v. Benipayo, 380 SCRA 49",
+      "caseId": "matibag-v-benipayo",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 151,
+      "paragraph": 239,
+      "citation": "Pimentel v. Ermita, G.R. No. 164978, 2005",
+      "caseId": "pimentel-v-ermita",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 152,
+      "paragraph": 240,
+      "citation": "Bautista v. Salonga, G.R. No. 86439, 1989",
+      "caseId": "bautista-v-salonga",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 153,
+      "paragraph": 241,
+      "citation": "Velicaria-Garafil v. Office of the President, G.R. No. 203372, 2015",
+      "caseId": "velicaria-garafil-v-office-of-the-president",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 154,
+      "paragraph": 242,
+      "citation": "Funa v. Chairman, COA, G.R. No. 191672, 2014",
+      "caseId": "funa-v-chairman-coa",
+      "topicId": "topic-14",
+      "section": null
+    },
+    {
+      "number": 155,
+      "paragraph": 246,
+      "citation": "CSC v. Dacoycoy, April 29, 1999",
+      "caseId": "csc-v-dacoycoy",
+      "topicId": "topic-15",
+      "section": null
+    },
+    {
+      "number": 156,
+      "paragraph": 247,
+      "citation": "Angchangco, Jr. v. Ombudsman, 268 SCRA 301",
+      "caseId": "angchangco-jr-v-ombudsman",
+      "topicId": "topic-15",
+      "section": null
+    },
+    {
+      "number": 157,
+      "paragraph": 248,
+      "citation": "Debulgado v. CSC, 237 SCRA 184, 1994",
+      "caseId": "debulgado-v-csc",
+      "topicId": "topic-15",
+      "section": null
+    },
+    {
+      "number": 158,
+      "paragraph": 249,
+      "citation": "CSC v. Cortes, G.R. No. 200103, 2014",
+      "caseId": "csc-v-cortes",
+      "topicId": "topic-15",
+      "section": null
+    },
+    {
+      "number": 159,
+      "paragraph": 250,
+      "citation": "GSIS v. Kapisanan ng mga Manggagawa sa GSIS, G.R. No. 170132, 2006",
+      "caseId": "gsis-v-kapisanan-ng-mga-manggagawa-sa-gsis",
+      "topicId": "topic-15",
+      "section": null
+    },
+    {
+      "number": 160,
+      "paragraph": 251,
+      "citation": "Davao City Water District v. Aranjuez, G.R. No. 194192, 2015",
+      "caseId": "davao-city-water-district-v-aranjuez",
+      "topicId": "topic-15",
+      "section": null
+    },
+    {
+      "number": 161,
+      "paragraph": 255,
+      "citation": "Estrada v. Desierto, March 2, 2001",
+      "caseId": "estrada-v-desierto",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 162,
+      "paragraph": 256,
+      "citation": "Shauf v. CA, 191 SCRA 713",
+      "caseId": "shauf-v-ca",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 163,
+      "paragraph": 257,
+      "citation": "Tecson v. Sandiganbayan, 318 SCRA 80, 1999",
+      "caseId": "tecson-v-sandiganbayan",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 164,
+      "paragraph": 258,
+      "citation": "Matobato, Sr. v. People, G.R. Nos. 229265 & 229624, 2022",
+      "caseId": "matobato-sr-v-people",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 165,
+      "paragraph": 259,
+      "citation": "Larin v. Executive Secretary, G.R. No. 112745, 1997",
+      "caseId": "larin-v-executive-secretary",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 166,
+      "paragraph": 260,
+      "citation": "Duque, Jr. v. Brillantes, Jr., A.C. No. 9912, 2016",
+      "caseId": "duque-jr-v-brillantes-jr",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 167,
+      "paragraph": 261,
+      "citation": "Republic v. Desierto, G.R. No. 136506, 2001",
+      "caseId": "republic-v-desierto",
+      "topicId": "topic-16",
+      "section": null
+    },
+    {
+      "number": 168,
+      "paragraph": 265,
+      "citation": "Cena v. CSC, 211 SCRA 179",
+      "caseId": "cena-v-csc",
+      "topicId": "topic-17",
+      "section": null
+    },
+    {
+      "number": 169,
+      "paragraph": 266,
+      "citation": "GSIS v. CSC, 245 SCRA 179",
+      "caseId": "gsis-v-csc",
+      "topicId": "topic-17",
+      "section": null
+    },
+    {
+      "number": 170,
+      "paragraph": 270,
+      "citation": "Gonzales III v. Office of the President, G.R. Nos. 196231 & 196232, 2014",
+      "caseId": "gonzales-iii-v-office-of-the-president",
+      "topicId": "topic-18",
+      "section": null
+    },
+    {
+      "number": 171,
+      "paragraph": 271,
+      "citation": "Villa-Ignacio v. Sulit, G.R. No. 222469, 2022",
+      "caseId": "villa-ignacio-v-sulit",
+      "topicId": "topic-18",
+      "section": null
+    },
+    {
+      "number": 172,
+      "paragraph": 272,
+      "citation": "Santos v. Rasalan, G.R. No. 155749, 2007",
+      "caseId": "santos-v-rasalan",
+      "topicId": "topic-18",
+      "section": null
+    },
+    {
+      "number": 173,
+      "paragraph": 273,
+      "citation": "Office of the Ombudsman v. Court of Appeals, G.R. No. 160675, 2006",
+      "caseId": "office-of-the-ombudsman-v-court-of-appeals",
+      "topicId": "topic-18",
+      "section": null
+    },
+    {
+      "number": 174,
+      "paragraph": 274,
+      "citation": "Morales, Jr. v. Carpio-Morales, G.R. No. 208086, 2016",
+      "caseId": "morales-jr-v-carpio-morales",
+      "topicId": "topic-18",
+      "section": null
+    },
+    {
+      "number": 175,
+      "paragraph": 275,
+      "citation": "Francisco, Jr. v. House of Representatives, G.R. No. 160261, 2003",
+      "caseId": "francisco-jr-v-house-of-representatives",
+      "topicId": "topic-18",
+      "section": null
+    },
+    {
+      "number": 176,
+      "paragraph": 278,
+      "citation": "Campol v. Balao-as, G.R. No. 197634, 2016",
+      "caseId": "campol-v-balao-as",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 177,
+      "paragraph": 279,
+      "citation": "NPC DAMA v. NPC, G.R. No. 156208, 2017",
+      "caseId": "npc-dama-v-npc",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 178,
+      "paragraph": 280,
+      "citation": "Melchor v. Gironella, G.R. No. 151138, 2005",
+      "caseId": "melchor-v-gironella",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 179,
+      "paragraph": 281,
+      "citation": "Ombudsman v. Andutan, Jr., G.R. No. 164679, 2011",
+      "caseId": "ombudsman-v-andutan-jr",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 180,
+      "paragraph": 282,
+      "citation": "Villena-Lopez v. Lopez, A.M. No. P-15-3411, 2020",
+      "caseId": "villena-lopez-v-lopez",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 181,
+      "paragraph": 283,
+      "citation": "CSC v. Juen, G.R. No. 200577, 2016",
+      "caseId": "csc-v-juen",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 182,
+      "paragraph": 284,
+      "citation": "Flores-Concepcion v. Castañeda, A.M. No. RTJ-15-2438, Resolution, 2020",
+      "caseId": "flores-concepcion-v-castaneda",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 183,
+      "paragraph": 285,
+      "citation": "Gloria v. CA, G.R. No. 131012, 1999",
+      "caseId": "gloria-v-ca",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 184,
+      "paragraph": 286,
+      "citation": "CSC v. Cruz, G.R. No. 187858, 2011",
+      "caseId": "csc-v-cruz",
+      "topicId": "topic-19",
+      "section": null
+    },
+    {
+      "number": 185,
+      "paragraph": 291,
+      "citation": "Carpio-Morales v. CA, November 10, 2015",
+      "caseId": "carpio-morales-v-ca",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 186,
+      "paragraph": 292,
+      "citation": "Dario v. Mison, 176 SCRA 84",
+      "caseId": "dario-v-mison",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 187,
+      "paragraph": 293,
+      "citation": "sCivil Service Commission v. Cutao, G.R. No. 225151, 2020",
+      "caseId": "civil-service-commission-v-cutao",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 188,
+      "paragraph": 294,
+      "citation": "De Rama v. COA, G.R. No. 131135, 2001",
+      "caseId": "de-rama-v-coa",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 189,
+      "paragraph": 295,
+      "citation": "Rodrigo v. Sandiganbayan, G.R. No. 125498, 1999",
+      "caseId": "rodrigo-v-sandiganbayan",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 190,
+      "paragraph": 296,
+      "citation": "Defensor-Santiago v. Sandiganbayan, G.R. No. 128055, 2001",
+      "caseId": "defensor-santiago-v-sandiganbayan",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 191,
+      "paragraph": 297,
+      "citation": "De Lima v. Guerrero, G.R. No. 229781, 2017",
+      "caseId": "de-lima-v-guerrero",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 192,
+      "paragraph": 298,
+      "citation": "Tsunami Management Corp. v. Ombudsman, G.R. No. 232712, 2021",
+      "caseId": "tsunami-management-corp-v-ombudsman",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 193,
+      "paragraph": 299,
+      "citation": "Yatco v. Office of the Deputy Ombudsman for Luzon, G.R. No. 244775, 2020",
+      "caseId": "yatco-v-office-of-the-deputy-ombudsman-for-luzon",
+      "topicId": "topic-20",
+      "section": null
+    },
+    {
+      "number": 194,
+      "paragraph": 300,
+      "citation": "Espina v. Soriano, G.R. No. 208436, 2023",
+      "caseId": "espina-v-soriano",
+      "topicId": "topic-20",
+      "section": null
+    }
+  ]
+}
